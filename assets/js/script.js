@@ -7331,173 +7331,9 @@ function (e, i, o) {
 		onStringTyped: function () {},
 		resetCallback: function () {}
 	}
-}(window, document, window.jQuery), $(function () {
-	var e = $(".buzz-slider");
-	e.slick({
-		speed: 750,
-		autoplay: !0,
-		autoplaySpeed: 4e3,
-		pauseOnHover: !1,
-		pauseOnFocus: !1,
-		slidesToShow: 1,
-		dots: !0,
-		responsive: [{
-			breakpoint: 768,
-			settings: {
-				speed: 400
-			}
-		}]
-	}), e.on("setPosition", function () {
-		$(this).find(".slick-slide").height("auto");
-		var e = $(this).find(".slick-track"),
-			t = $(e).height();
-		$(this).find(".slick-slide").css("height", t + "px")
-	}), e.on("beforeChange", function (e, t, i, n) {
-		var o = $(".buzz-item").eq(n + 1).attr("data-color");
-		$(".buzz").css({
-			"background-color": "" + o
-		})
-	})
-}), $(".canpaign-video-inner").fitVids(), $(".canpaign-score-results-item").waypoint(function () {
-	$(this).find(".canpaign-score-results-value").countTo({
-		speed: 1e3,
-		refreshInterval: 50,
-		decimals: 0
-	})
-}, {
-	offset: "75%",
-	triggerOnce: !0
-}), $(".canpaign-score-disclaimer-icon").click(function () {
-	$(".canpaign-score-disclaimer-text").toggleClass("show")
-});
-var sweepstakesItems = $(".canpaign-sweepstakes-items");
-sweepstakesItems.slick({
-	mobileFirst: !0,
-	autoplay: !1,
-	dots: !1,
-	arrows: !1,
-	infinite: !1,
-	speed: 400,
-	slidesToShow: 1,
-	centerMode: !0,
-	centerPadding: "30px",
-	responsive: [{
-		breakpoint: 767,
-		settings: "unslick"
-	}]
-});
-var canpaignSCslider = $(".canpaign-screwcorks-slider");
-canpaignSCslider.slick({
-	speed: 700,
-	autoplay: !1,
-	autoplaySpeed: 4e3,
-	pauseOnHover: !1,
-	pauseOnFocus: !1,
-	slidesToShow: 1,
-	dots: !0,
-	responsive: [{
-		breakpoint: 768,
-		settings: {
-			speed: 400
-		}
-	}]
-});
-var canpaignSCsliderAnimatedItems = $(".overflow-container, .screw-corks-icon-svg, .acv-line-texture");
-if ($(".canpaign-screwcorks-item").eq(1).find(canpaignSCsliderAnimatedItems).addClass("animate"), canpaignSCslider.on("beforeChange", function (e, t, i, n) {
-	$(".canpaign-screwcorks-item").find(canpaignSCsliderAnimatedItems).removeClass("animate"), setTimeout(function () {
-		$(".canpaign-screwcorks-item").eq(n + 1).find(canpaignSCsliderAnimatedItems).addClass("animate")
-	}, 100), setTimeout(function () {
-		$(".canpaign-screwcorks-item.slick-cloned").find(canpaignSCsliderAnimatedItems).removeClass("animate")
-	}, 700);
-	var o = $(".canpaign-screwcorks-item").eq(n + 1).attr("data-bg");
-	$(".canpaign-screwcorks").css({
-		"background-color": "" + o
-	})
-}), $('iframe[id="canpaign-video"]').length) {
-	var iframeCanpaignVideo = document.querySelector('iframe[id="canpaign-video"]'),
-		playerCanpaignVideo = new Vimeo.Player(iframeCanpaignVideo);
-	$(".js-canpaign-video-play").click(function () {
-		return playerCanpaignVideo.play(), $('.video-overlay[rel="canpaign-video"]').addClass("open"), setTimeout(function () {
-			$(".acv-arrow").hide()
-		}, 500), !1
-	}), $(".video-overlay-close").click(function () {
-		playerCanpaignVideo.unload(), $(".video-overlay").removeClass("open")
-	})
-}
-if ($('iframe[id="corkscrew-video"]').length) {
-	var iframeCorkscrewVideo = document.querySelector('iframe[id="corkscrew-video"]'),
-		playerCorkscrewVideo = new Vimeo.Player(iframeCorkscrewVideo);
-	$(".js-corkscrew-video-play").click(function () {
-		return playerCorkscrewVideo.play(), $('.video-overlay[rel="corkscrew-video"]').addClass("open"), setTimeout(function () {
-			$(".acv-arrow").hide()
-		}, 500), !1
-	}), $(".video-overlay-close").click(function () {
-		playerCorkscrewVideo.unload(), $(".video-overlay").removeClass("open")
-	})
-}
-if ($('iframe[id="wineinacan-video"]').length) {
-	var iframeWineinacanVideo = document.querySelector('iframe[id="wineinacan-video"]'),
-		playerWineinacanVideo = new Vimeo.Player(iframeWineinacanVideo);
-	$(".js-wineinacan-video-play").click(function () {
-		return playerWineinacanVideo.play(), $('.video-overlay[rel="wineinacan-video"]').addClass("open"), setTimeout(function () {
-			$(".acv-arrow").hide()
-		}, 500), !1
-	}), $(".video-overlay-close").click(function () {
-		playerWineinacanVideo.unload(), $(".video-overlay").removeClass("open")
-	})
-}
-if ($('iframe[id="surprised-video"]').length) {
-	var iframeSurprisedVideo = document.querySelector('iframe[id="surprised-video"]'),
-		playerSurprisedVideo = new Vimeo.Player(iframeSurprisedVideo);
-	$(".js-surprised-video-play").click(function () {
-		return playerSurprisedVideo.play(), $('.video-overlay[rel="surprised-video"]').addClass("open"), setTimeout(function () {
-			$(".acv-arrow").hide()
-		}, 500), !1
-	}), $(".video-overlay-close").click(function () {
-		playerSurprisedVideo.unload(), $(".video-overlay").removeClass("open")
-	})
-}
-$(".js-viralsweep-button").click(function () {
-	return $(".viralsweep").addClass("show"), !1
-}), $(".js-viralsweep-close").click(function () {
-	return $(".viralsweep").removeClass("show"), !1
-}), $(".viralsweep").click(function () {
-	$(".viralsweep").removeClass("show")
-}), $(".viralsweep-inner").click(function (e) {
-	e.stopPropagation()
-}), $(".canpaign-video-nav-item").click(function () {
-	var e = $(this);
-	$(".canpaign-video-nav-item").removeClass("active"), e.addClass("active");
-	var t = e.index();
-	$(".canpaign-video-inner-item").removeClass("active").find(".overflow-container, svg").removeClass("animate"), $(".canpaign-video-inner-item:eq(" + t + ")").addClass("active").find(".overflow-container, svg").addClass("animate")
-}), $(".canpaign-video").waypoint(function () {
-	$(".canpaign-video-inner-item:eq(0)").find(".overflow-container, svg").addClass("animate")
-}, {
-	offset: "90%",
-	triggerOnce: !0
-});
-var sweepstakesLogos = $(".canpaign-sweepstakes-logos");
-sweepstakesLogos.slick({
-	autoplay: !1,
-	dots: !1,
-	arrows: !0,
-	infinite: !0,
-	speed: 800,
-	slidesToShow: 4,
-	slidesToScroll: 4,
-	responsive: [{
-		breakpoint: 768,
-		settings: {
-			slidesToShow: 3,
-			slidesToScroll: 3,
-			speed: 500
-		}
-	}]
-}), $(function () {
-	$(".wpcf7-form").length && ($('select[name="your-state"] option:eq(0)').attr("disabled", "disabled").text("State"), document.querySelector(".wpcf7").addEventListener("wpcf7mailsent", function (e) {
-		$(".wpcf7-form").addClass("hide"), $(".contact-form-success").addClass("show")
-	}, !1))
-}),
+}(window, document, window.jQuery),
+
+
 /* wine section */
 $(function () {
 	var wow = $(".wow"),
@@ -7517,6 +7353,8 @@ $(function () {
 		wow_sect1.find(".bg").removeClass("down down-s"),
 		wow_sect1.find(".content").removeClass("down down-s"),
 		$(".home-acv-main").addClass("animate"),
+		// main_class.find(".overflow-container, #play-button").removeClass("animate"),
+		// $(".acv-video").get(0).pause(), $(".acv-video").get(1).pause(),
 		wow_sect1.find('.headline').addClass("animate"),
 		// wow_sect1.find(".overflow-container").addClass("animate"),	 wow_sect1.find(".acv-line-texture").addClass("animate"),	wow_sect1.find("#play-button").addClass("animate")
 		down_arrow.addClass("animate"),
@@ -7665,7 +7503,10 @@ $(function () {
 			wow.height(e)
 		},
 		afterLoad: function (e, t) {
-
+			// $(".acv-video").get(0).play(), $(".acv-video").get(1).play(),
+			// setTimeout(function() {
+			//           main_class.find(".overflow-container, #play-button").addClass("animate"), $(".acv-arrow-small.main").removeClass("hidden")
+			//         }, 1e3),
 			// 1 == t ? ($(".acv-video").get(0).play(), $(".acv-video").get(1).play(), setTimeout(function() {
 			// 	main_class.find(".overflow-container, #play-button").addClass("animate"), $(".acv-arrow-small.main").removeClass("hidden")
 			// }, 1e3)),$(this).find(".acv-arrow-small").removeClass("hide"),
@@ -7708,8 +7549,8 @@ $(function () {
 /* End of wine section*/
 
 $(function() {
-  FastClick.attach(document.body), $(".acv.full-height, .ethos-statement, .canpaign-intro, .canpaign-score-intro, .canpaign-score-results-item, .canpaign-sweepstakes").waypoint(function(e) {
-    $(this).find(".overflow-container").addClass("animate"), $(this).find(".acv-line-texture").addClass("animate"), $(this).find("#play-button").addClass("animate"), $(this).prev(".canpaign-score-results-vs").addClass("animate")
+  FastClick.attach(document.body), $(".acv.full-height").waypoint(function(e) {
+    $(this).find(".overflow-container").addClass("animate"), $(this).find(".acv-line-texture").addClass("animate"), $(this).find("#play-button").addClass("animate")
   }, {
     offset: "90%",
     triggerOnce: !0

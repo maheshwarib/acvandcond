@@ -79,11 +79,8 @@
             S2.5,84.7,2.5,55.4S26.2,2.5,55.4,2.5"  stroke-linecap="round"/>
           <polyline id="play-button-triangle" points="52.2,33.8 84.9,55.4 42.5,83.4 42.5,28.7"  stroke-linecap="round" />
           </svg> -->
-				<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89"  width="60px"><defs><style>.cls-1{fill:#fff;stroke:#fff;stroke-miterlimit:10;}</style></defs><title>Video Button-01</title><path class="cls-1" d="M50,6A44,44,0,0,0,6.78,41.63a2,2,0,1,0,3.94.75A40.06,40.06,0,1,1,10,50a2,2,0,0,0-4-.06H6V50A44,44,0,1,0,50,6ZM42.78,32A2,2,0,0,0,41,34V66a2,2,0,0,0,2,2,2.08,2.08,0,0,0,1.13-.34l24-16a2,2,0,0,0,.57-2.77,2,2,0,0,0-.57-.58l-24-16A2,2,0,0,0,42.78,32ZM45,37.75,63.38,50,45,62.22Z" transform="translate(-5.5 -5.5)"/></svg>
-						<!-- <svg id="Layer_1" id="play-button" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100.5" width="60px">
-							<title>Video Button</title>
-							<path d="M50,6A44,44,0,0,0,6.78,41.63a2,2,0,0,0,3.94.75A40.06,40.06,0,1,1,10,50a2,2,0,0,0-4-.06V50A44,44,0,1,0,50,6ZM42.78,32A2,2,0,0,0,41,34V66a2,2,0,0,0,2,2,2.08,2.08,0,0,0,1.13-.34l24-16a2,2,0,0,0,.57-2.77,2.1,2.1,0,0,0-.57-.58l-24-16A2,2,0,0,0,42.78,32ZM45,37.75,63.38,50,45,62.22Z" style="stroke:#fff;stroke-miterlimit:10;width:60px;height:60px" />
-						</svg> -->
+				<svg id="Layer_1" data-name="Layer 1" id="play-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89"  width="60px"><defs><style>.cls-1{fill:#fff;stroke:#fff;stroke-miterlimit:10;}</style></defs><title>Video Button-01</title><path class="cls-1" d="M50,6A44,44,0,0,0,6.78,41.63a2,2,0,1,0,3.94.75A40.06,40.06,0,1,1,10,50a2,2,0,0,0-4-.06H6V50A44,44,0,1,0,50,6ZM42.78,32A2,2,0,0,0,41,34V66a2,2,0,0,0,2,2,2.08,2.08,0,0,0,1.13-.34l24-16a2,2,0,0,0,.57-2.77,2,2,0,0,0-.57-.58l-24-16A2,2,0,0,0,42.78,32ZM45,37.75,63.38,50,45,62.22Z" transform="translate(-5.5 -5.5)"/></svg>
+
 					</div>
 				</div>
 			</div>
@@ -136,9 +133,9 @@
 					<div class="acv-arrow-small"></div>
 				</div>
 			</div>
-			<!-- Red Wine -->
+			<!-- Conditioner -->
 			<div class="wow-section">
-				<div class="acv wow-acv-cond red-wine">
+				<div class="acv wow-acv-cond cond">
 					<div class="bg left up">
 						<div class="bottle  left"></div>
 					</div>
@@ -184,6 +181,7 @@
 						<div class="overflow-container content-breaker">
 							<div class="overflow-inner delay1 ">
 								<h3 class="title">Having a hair crisis every other day?</h3>
+								<h4 class="title2">Well, you’ve come to the right place!</h4>
 								<br>
 								<p class="subtitle">Here at WOW Skin Science, we dedicate all our waking hours to researching and formulating new brilliant ways to help you with all your hair woes! Trust us when we say this; what we have is a “Winner”!</p>
 							</div>
@@ -238,7 +236,7 @@
 								<span class="star-icon full">☆</span>
 								<span class="star-icon">☆</span>
 							</div>
-							<div class="overflow-container">
+							<div class="overflow-container block">
 								<p>Apple Cider Vinegar
 									<br>Shampoo</p>
 								<p class="price">$29</p>
@@ -335,42 +333,14 @@
 								<ul class="footer-social-icons">
 									<li>
 										<a href="https://www.instagram.com/buywow/" class="footer-social-instagram">
-											<!--                     -->
-											<!--
-                       Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)
-
---><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 299.8" style="enable-background:new 0 0 300 299.8;" xml:space="preserve">
-<path d="M149.9,73.2c-43.3,0-76.7,34.1-76.7,76.7s34.1,77.4,76.7,77.4c43.3,0,77.4-34.1,77.4-77.4S193.3,73.2,149.9,73.2z
-M149.9,200.4c-27.7,0-49.7-22-49.7-49.7s22-49.7,49.7-49.7s49.7,22,49.7,49.7S178.3,200.4,149.9,200.4z M299.1,88.1
-c-0.7-16.3-2.8-27-7.1-36.2c-4.3-9.9-9.2-17.8-17.1-27c-7.8-7.8-17.1-12.8-27-17.1c-9.9-4.3-19.9-5.7-36.2-7.1
-C196.1,0,190.4,0,149.9,0s-46.2,0-61.8,0.7c-16.3,0.7-27,2.8-36.2,7.1c-9.9,4.3-17.8,9.2-27,17.1c-7.8,7.8-12.8,17.1-17.1,27
-S2.1,71.8,0.7,88.1C0,104.4,0,109.4,0,149.9s0,46.2,0.7,61.8c0.7,16.3,2.8,27,7.1,36.2c4.3,9.9,9.2,17.8,17.1,27
-c7.8,7.8,17.1,12.8,27,17.1c9.9,4.3,19.9,5.7,36.2,7.1c16.3,0.7,21.3,0.7,61.8,0.7c41.2,0,46.2,0,61.8-0.7c16.3-0.7,27-2.8,36.2-7.1
-c9.9-4.3,17.8-9.2,27-17.1c7.8-7.8,12.8-17.1,17.1-27c4.3-9.9,5.7-19.9,7.1-36.2c0.7-16.3,0.7-21.3,0.7-61.8S300.5,104.4,299.1,88.1
-z M272.1,211c-0.7,14.9-2.8,22.7-5,27.7c-2.8,7.1-5.7,12.1-10.7,17.1s-9.9,9.2-17.1,11.4c-5,2.1-12.8,4.3-27.7,5
-c-16.3,0.7-21.3,0.7-61.1,0.7s-44.8,0-61.1-0.7c-14.9-0.7-22.7-2.8-27.7-5c-7.1-2.8-12.1-5.7-17.1-11.4c-5-5-9.2-9.9-10.7-17.1
-c-2.1-5-4.3-12.8-5-27.7c-0.7-16.3-0.7-21.3-0.7-61.1s0-44.8,0.7-61.1c0.7-14.9,2.8-22.7,5-27.7C36.9,54,39.8,49,44.8,44
-s9.9-9.2,17.1-11.4c5-2.1,12.8-4.3,27.7-5c16.3-0.7,21.3-0.7,61.1-0.7s44.8,0,61.1,0.7c14.9,0.7,22.7,2.8,27.7,5
-c7.1,2.8,12.1,5.7,17.1,11.4s9.2,9.9,10.7,17.1c2.1,5.7,4.3,14.2,5,27.7c0.7,16.3,0.7,21.3,0.7,61.1S273.5,195.4,272.1,211z
-M248,70.3c0,9.9-7.8,17.8-17.8,17.8c-9.9,0-17.8-7.8-17.8-17.8s7.8-17.8,17.8-17.8C240.1,51.9,248,60.4,248,70.3z"/>
-</svg>
+	<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 299.98 299.8"><defs><style>.cls-1{fill:#fff;}</style></defs><title>insta</title><path class="cls-1" d="M149.9,73.2c-43.3,0-76.7,34.1-76.7,76.7s34.1,77.4,76.7,77.4c43.3,0,77.4-34.1,77.4-77.4S193.3,73.2,149.9,73.2Zm0,127.2a49.7,49.7,0,1,1,49.7-49.7C199.6,178.4,178.3,200.4,149.9,200.4ZM299.1,88.1c-.7-16.3-2.8-27-7.1-36.2a100.22,100.22,0,0,0-17.1-27c-7.8-7.8-17.1-12.8-27-17.1S228,2.1,211.7.7C196.1,0,190.4,0,149.9,0S103.7,0,88.1.7c-16.3.7-27,2.8-36.2,7.1a100.22,100.22,0,0,0-27,17.1C17.1,32.7,12.1,42,7.8,51.9S2.1,71.8.7,88.1C0,104.4,0,109.4,0,149.9s0,46.2.7,61.8c.7,16.3,2.8,27,7.1,36.2a100.22,100.22,0,0,0,17.1,27c7.8,7.8,17.1,12.8,27,17.1s19.9,5.7,36.2,7.1c16.3.7,21.3.7,61.8.7,41.2,0,46.2,0,61.8-.7,16.3-.7,27-2.8,36.2-7.1a100.22,100.22,0,0,0,27-17.1c7.8-7.8,12.8-17.1,17.1-27s5.7-19.9,7.1-36.2c.7-16.3.7-21.3.7-61.8S300.5,104.4,299.1,88.1ZM272.1,211c-.7,14.9-2.8,22.7-5,27.7-2.8,7.1-5.7,12.1-10.7,17.1s-9.9,9.2-17.1,11.4c-5,2.1-12.8,4.3-27.7,5-16.3.7-21.3.7-61.1.7s-44.8,0-61.1-.7c-14.9-.7-22.7-2.8-27.7-5-7.1-2.8-12.1-5.7-17.1-11.4-5-5-9.2-9.9-10.7-17.1-2.1-5-4.3-12.8-5-27.7-.7-16.3-.7-21.3-.7-61.1s0-44.8.7-61.1c.7-14.9,2.8-22.7,5-27.7C36.9,54,39.8,49,44.8,44s9.9-9.2,17.1-11.4c5-2.1,12.8-4.3,27.7-5,16.3-.7,21.3-.7,61.1-.7s44.8,0,61.1.7c14.9.7,22.7,2.8,27.7,5,7.1,2.8,12.1,5.7,17.1,11.4s9.2,9.9,10.7,17.1c2.1,5.7,4.3,14.2,5,27.7.7,16.3.7,21.3.7,61.1S273.5,195.4,272.1,211ZM248,70.3a17.8,17.8,0,1,1-17.8-17.8C240.1,51.9,248,60.4,248,70.3Z"/></svg>
 										</a>
 									</li>
-									<!-- <style media="screen">
-                    .fa-circle{
-                      color:blue
-                    }
-                  </style>
-                  <li><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></li> -->
+
 									<li>
 										<a href="https://www.facebook.com/buywow/" class="footer-social-facebook">
 											<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-											<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 140.5 300" style="enable-background:new 0 0 140.5 300;" xml:space="preserve">
-												<g>
-													<path d="M30,300h63.2c0,0,0-83.7,0-151.6h41.1l4.7-52.1H91.6v-30c0-11.1,7.9-14.2,14.2-14.2c6.3,0,34.7,0,34.7,0V0H93.2
-		C41.1,0,30,36.3,30,63.2v34.7H0V150h30C30,217.9,30,300,30,300z" />
-												</g>
-											</svg>
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.5 300"><defs><style>.cls-1{fill:#fff;}</style></defs><title>fb</title><path class="cls-1" d="M30,300H93.2V148.4h41.1L139,96.3H91.6v-30c0-11.1,7.9-14.2,14.2-14.2h34.7V0H93.2C41.1,0,30,36.3,30,63.2V97.9H0V150H30Z"/></svg>
 										</a>
 									</li>
 								</ul>
@@ -378,19 +348,13 @@ M248,70.3c0,9.9-7.8,17.8-17.8,17.8c-9.9,0-17.8-7.8-17.8-17.8s7.8-17.8,17.8-17.8C
 						</div>
 					</div>
 					<div class="footer-copyright"> <span class="footer-copyright-item">&copy; 2013-2018 Created by &amp; All Rights Reserved - Fit and Glow Healthcare Pvt Ltd.</span>
-						<!-- <span class="footer-copyright-item"><a href="../privacy-policy/index.html">Privacy Policy</a></span>
-            <span class="footer-copyright-makers"><a href="http://makersandallies.com/" target="_blank">Made by Makers</a></span> -->
+
 					</div>
 				</footer>
 			</div>
 		</div>
 	</div>
-	<!-- / .wrapper -->
-	<!-- <div class="landscape-popup"></div> -->
-	<!--
 
-  <script type='text/javascript' src='../wp-content/plugins/contact-form-7/includes/js/scripts972f.js?ver=5.0.1'></script>
-  <script type='text/javascript' src='../wp-includes/js/wp-embed.min55fe.js?ver=4.9.5'></script> -->
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/js/script.js"></script>
 	<script>
