@@ -66,13 +66,14 @@
         </span>
         <span class="overflow-container acv-intro-eyebrow">
           <span class="overflow-inner delay1">
-            <span class="eyebrow">Advanced Hair Care Formulae From wow skin science!</span>
+            <span class="eyebrow">Advanced Hair Care Formulae </span>
+						<span class="eyebrow"> From <span class="uppercase"> wow skin science!</span></span>
           </span>
         </span>
 
       </h1>
 			<div class="overflow-container acv-play js-video-link">
-				<div class="overflow-inner delay1">
+				<div class="overflow-inner delay2">
 					<div class="acv-play-button">
 						<!-- <svg version="1.1" id="play-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 110.9 110.9" style="enable-background:new 0 0 110.9 110.9;" xml:space="preserve">
           <path id="play-button-circle" class="st0" d="M65.1,3.4c24.6,4.5,43.3,26.1,43.3,52.1c0,29.2-23.7,52.9-52.9,52.9
@@ -203,7 +204,7 @@
 								<h3 class="title">Where does the conditioner come in?</h3>
 								<br>
 								<p class="subtitle">If you’re not too lazy to go the extra mile to preserve and cherish your hair, why don’t you try WOW Skin Science Hair Conditioner after the shampoo, and make this dynamic duo into a routine?</p>
-                <br><a href="#" target="_blank" class="button secondary">Read More</a>
+                <a href="#" target="_blank" class="button secondary">Read More</a>
 							</div>
 							<br>
 						</div>
@@ -225,22 +226,16 @@
 			<div class="section">
 				<div class="wow-acv-cond combos">
 					<div class="overflow-container part1"> <span class="combo-heading1"> Well, what are you <br>waiting for?!</span>
-						<br> <span class="combo-heading2"> Go ahead and grab yours!</span>
-					</div>
+						<br> <span class="combo-heading2"> Go ahead and grab yours!</span>					</div>
 					<div class="owl-theme owl-carousel">
 						<div class="item">
 							<img class="owl-lazy combo1" data-src="assets/img/combo1.png" alt="ACV" />
-							<div class="rating"> <span class="star-icon full">☆</span>
-								<span class="star-icon full">☆</span>
-								<span class="star-icon full">☆</span>
-								<span class="star-icon full">☆</span>
-								<span class="star-icon">☆</span>
+							<div class="rating"> <span class="star-icon full">☆</span><span class="star-icon full">☆</span>		<span class="star-icon full">☆</span>			<span class="star-icon full">☆</span>								<span class="star-icon">☆</span>
 							</div>
 							<div class="overflow-container block">
-								<p>Apple Cider Vinegar
-									<br>Shampoo</p>
+								<p>Apple Cider Vinegar									<br>Shampoo</p>
 								<p class="price">$29</p>
-								<button type="button" name="button" class="button secondary">SHOP NOW</button>
+								<a href="#" target="_blank" class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
 						<div class="item">
@@ -256,7 +251,7 @@
 									<br>+
 									<br>Hair Conditioner</p>
 								<p class="price">$49</p>
-								<button type="button" name="button" class="button secondary">SHOP NOW</button>
+							<a href="#" target="_blank" class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
 						<div class="item">
@@ -273,7 +268,7 @@
 									<br>
 								</p>
 								<p class="price">$29</p>
-								<button type="button" name="button" class="button secondary">SHOP NOW</button>
+									<a href="#" target="_blank" class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
 					</div>
@@ -357,14 +352,14 @@
 
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/js/script.js"></script>
-	<script>
+	<!-- <script>
 		$(window).on("load", function() {
 		      $('#instafeed > a > img').each(function(){
 		          var src = $(this).attr('src');
 		          $(this).attr('src',src.replace('150x150', '480x480'));
 		      });
 		  });
-	</script>
+	</script> -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js">
 	</script>
 	<script type="text/javascript">
@@ -385,7 +380,7 @@
 		            items:1
 		        },
 		        800:{
-		            items: 3
+		            items: 1
 		        },
 		        1000:{
 		            items:3

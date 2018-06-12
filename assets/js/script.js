@@ -7353,8 +7353,8 @@ $(function () {
 		wow_sect1.find(".bg").removeClass("down down-s"),
 		wow_sect1.find(".content").removeClass("down down-s"),
 		$(".home-acv-main").addClass("animate"),
-		// main_class.find(".overflow-container, #play-button").removeClass("animate"),
-		// $(".acv-video").get(0).pause(), $(".acv-video").get(1).pause(),
+		main_class.find(".overflow-container, #play-button").removeClass("animate"),
+
 		wow_sect1.find('.headline').addClass("animate"),
 		// wow_sect1.find(".overflow-container").addClass("animate"),	 wow_sect1.find(".acv-line-texture").addClass("animate"),	wow_sect1.find("#play-button").addClass("animate")
 		down_arrow.addClass("animate"),
@@ -7434,11 +7434,13 @@ $(function () {
 				"up" === i && (-1 === n && (wow_sect1.find(".bg").addClass("down down-s"),
 											 wow_sect1.find(".content").addClass("down down-s"),
 											  // $(".wow").removeClass("animate"),
+												$(".wow").removeClass("animate"),
 												$(".home-acv-main").removeClass("animate"),
 												wow_sect1.find(".bottle").removeClass("animate"),
 												wow_sect1.find(".content").removeClass("animate"),
 												wow_sect1.find(".overflow-container").removeClass("animate"),
-												down_arrow.removeClass("animate"), $(".home-acv-main").find(h).addClass("animate"),
+												down_arrow.removeClass("animate"),
+												 $(".home-acv-main").find(h).addClass("animate"),
 												p.removeClass("animate"), wow_sect1.css({
 																				"z-index": "1"
 																			})),
@@ -7456,7 +7458,7 @@ $(function () {
 													wow_sect2.find(".overflow-container").removeClass("animate"),
 													wow_sect1.find(".content").addClass("animate"),
 													wow_sect2.find(".content").removeClass("animate"),
-													wow_sect2.css({
+													wow_sect1.css({
 													"z-index": "1"
 												})),
 												 1 === n && (wow_sect2.find(".bg").removeClass("down"),
@@ -7474,7 +7476,7 @@ $(function () {
 													wow_sect3.find(".overflow-container").removeClass("animate"),
 													wow_sect2.find(".content").addClass("animate"),
 													wow_sect3.find(".content").removeClass("animate"),
-													wow_sect3.css({
+													wow_sect2.css({
 													"z-index": "1"
 												}), wow.removeClass("animate-up-easing")),
 												2 === n && (
@@ -7503,14 +7505,13 @@ $(function () {
 			wow.height(e)
 		},
 		afterLoad: function (e, t) {
-			// $(".acv-video").get(0).play(), $(".acv-video").get(1).play(),
-			// setTimeout(function() {
-			//           main_class.find(".overflow-container, #play-button").addClass("animate"), $(".acv-arrow-small.main").removeClass("hidden")
-			//         }, 1e3),
+
 			// 1 == t ? ($(".acv-video").get(0).play(), $(".acv-video").get(1).play(), setTimeout(function() {
 			// 	main_class.find(".overflow-container, #play-button").addClass("animate"), $(".acv-arrow-small.main").removeClass("hidden")
 			// }, 1e3)),$(this).find(".acv-arrow-small").removeClass("hide"),
+			$(this).find(".acv-arrow-small").removeClass("hide"),
 			$(".wow-section:eq(" + (t - 2) + ")").find(".acv-arrow-small").removeClass("hide")
+
 		}
 	};
 	$("#wow").length && ($("#wow").fullpage(e),
@@ -7549,8 +7550,8 @@ $(function () {
 /* End of wine section*/
 
 $(function() {
-  FastClick.attach(document.body), $(".acv.full-height").waypoint(function(e) {
-    $(this).find(".overflow-container").addClass("animate"), $(this).find(".acv-line-texture").addClass("animate"), $(this).find("#play-button").addClass("animate")
+  FastClick.attach(document.body), $(".acv.full-height, .ethos-statement, .canpaign-intro, .canpaign-score-intro, .canpaign-score-results-item, .canpaign-sweepstakes").waypoint(function(e) {
+    $(this).find(".overflow-container").addClass("animate"), $(this).find(".acv-line-texture").addClass("animate"), $(this).find("#play-button").addClass("animate"), $(this).prev(".canpaign-score-results-vs").addClass("animate")
   }, {
     offset: "90%",
     triggerOnce: !0
@@ -7602,7 +7603,7 @@ $(function () {
 	new Instafeed({
 		get: "user",
 		userId: "4355028863",
-		limit: 24,
+		limit: 25,
 		resolution: "low_resolution",
 		accessToken: "4355028863.bd54f22.4e963b512afc4425a23fc08f2a038829",
 		template: '<a target="_blank" href="{{link}}" style="background-image: url({{image}});"></a>'

@@ -244,6 +244,9 @@ a:visited {
 .lowercase {
 	text-transform: lowercase
 }
+.uppercase {
+	text-transform: uppercase;
+}
 .ethos-acv-items,
 .ethos-acv-items:after,
 .acv.overlay:before,
@@ -270,6 +273,9 @@ a:visited {
 	margin: 0;
 	padding: 0
 }
+.headline br{
+	line-height: 0;
+}
 .contact-form-submit .headline+input,
 .headline+.button,
 .not-found .post-password-form .headline+input[type=submit] {
@@ -281,9 +287,25 @@ a:visited {
 }
 .eyebrow {
 	color: #fff;
-	font-weight: 700;
+	font-weight: 400;
+	/* text-transform: uppercase; */
+	text-transform: none;
+display: block;
+	font: normal normal 28px/1.1 "Open Sans", Arial Black, Helvetica, sans-serif;
+	/* line-height: 0.9; */
+	margin: 5px 0;
+	padding: 0;
+	letter-spacing: 0em
+}
+.eyebrow .uppercase{
+		font-weight: 600;
+}
+.eyebrow2{
+	color: #fff;
+	font-weight: 800;
 	text-transform: uppercase;
-	font: normal normal 25px/1 Heavitas, Arial Black, Helvetica, sans-serif;
+	font: normal normal 26px/1 "Open Sans", Arial Black, Helvetica, sans-serif;
+		line-height: 0.9;
 	margin: 0;
 	padding: 0;
 	letter-spacing: 0em
@@ -323,15 +345,15 @@ a:visited {
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 20px;
-	font: normal normal 28px/1 Heavitas, Arial Black, Helvetica, sans-serif;
+	font: normal normal 25px/1.1 Heavitas, Arial Black, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0
 }
 .rose .title2 {
 	color: #ccc;
-	font-weight: 700;
+	font-weight: 800;
 	margin-bottom: 20px;
-	font: normal normal 28px/1.1 "Open Sans", Arial Black, Helvetica, sans-serif;
+	font: normal normal 22px/1.1 "Open Sans", Arial Black, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0
 }
@@ -385,12 +407,12 @@ a:visited {
 .cond .subtitle {
 	color: #fff;
 	text-transform: uppercase;
-	font: 800 normal 30px/1.1"Open Sans", Arial Black, Helvetica, sans-serif;
+	font: 800 normal 30px/1.1 "Open Sans", Arial Black, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0
 }
 .rose .subtitle {
-	font: 400 normal 24px/1.1"Open Sans", Arial Black, Helvetica, sans-serif;
+	font: 400 normal 20px/1.3 "Open Sans", Arial Black, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0
 }
@@ -400,6 +422,9 @@ a:visited {
 	font: 400 normal 30px/1.1 Heavitas, Arial Black, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0
+}
+.rose .content a{
+	margin:18px 0 0
 }
 @media only screen and (max-width: 1200px) {
 	.default-content-inner h2,
@@ -774,7 +799,7 @@ html.fp-enabled,
 	width: 12px;
 	margin: 0px 0 0 0px;
 	border-radius: 100%;
-	background: rgba(255, 255, 255, 1);
+	background: rgba(170,170,170, 1);
 }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
@@ -783,7 +808,7 @@ html.fp-enabled,
 	z-index: 1;
 	height: 12px;
 	width: 12px;
-	border: 2px solid #fff;
+	border: 2px solid #aaa;
 	background: rgba(255, 255, 255, 0.01);
 	left: 50%;
 	top: 50%;
@@ -798,7 +823,7 @@ html.fp-enabled,
 	width: 12px;
 	height: 12px;
 	/* margin: -5px 0px 0px -5px; */
-	background: rgba(255, 255, 255, 1);
+	background: rgba(170,170,170, 1);
 }
 #fp-nav ul li .fp-tooltip {
 	position: absolute;
@@ -1076,6 +1101,7 @@ span.ajax-loader {
 	max-width: 250px;
 	background: black;
 	color: #fff;
+	border: 1px solid black;
 	overflow: hidden;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
@@ -1564,7 +1590,7 @@ span.ajax-loader {
 }
 @media only screen and (max-width: 340px) {
 	.footer-social-feed {
-		display: none
+		width: 100%
 	}
 }
 .footer-social-feed a {
@@ -1580,7 +1606,7 @@ span.ajax-loader {
 }
 @media only screen and (max-width: 1023px) {
 	.footer-social-feed a {
-		width: calc(25% - 4.5px);
+		width: calc(25% - 0.5px);
 		/* padding-top: calc(25% - 6px) */
 	}
 }
@@ -1674,7 +1700,7 @@ span.ajax-loader {
 .acv.main .headline {
 	color: #fff;
 	position: relative;
-	z-index: 3
+	z-index: 4
 }
 @media only screen and (max-width: 1200px) {
 	.acv.main .headline {
@@ -2129,7 +2155,7 @@ span.ajax-loader {
 }
 @media only screen and (max-width: 767px) {
 	.wow .acv-arrow {
-		left: 200%;
+		left:-100%;
 	}
 }
 .wow .acv-arrow.animate {
@@ -2173,7 +2199,7 @@ span.ajax-loader {
 .wow-acv-cond .content {
 	width: 50%;
 	height: 100%;
-	padding: 100px 6vw;
+	padding: 100px 8vw;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-flow: column nowrap;
@@ -2184,6 +2210,9 @@ span.ajax-loader {
 	top: 0;
 	z-index: 4;
 	overflow: hidden
+}
+.wow-acv-cond .content a{
+	margin:20px 0 0;
 }
 
 
@@ -2607,7 +2636,7 @@ span.ajax-loader {
 	width: 100%;
 	background: #fff url(../img/section4_bg.jpg) calc(100%) 0%/calc(100%) no-repeat;
 	text-align: left;
-	display: inline-block;
+	display: block;
 }
 .combos p {
 	font-family: 'Open Sans';
@@ -2615,21 +2644,22 @@ span.ajax-loader {
 	font-weight: 600;
 }
 .combos .overflow-container.part1 {
-	padding: 20px 150px;
+z-index: 1;
+	padding: 20px 150px 5px;
 }
 .combos .combo-heading1 {
 	font-family: Heavitas;
-	font-size: 55px;
+	font-size: 50px;
 	color: #fff;
 }
 .combos .combo-heading2 {
 	font-family: "Open Sans";
-	font-size: 37px;
+	font-size: 28px;
 	color: #fff;
 }
 @media only screen and (max-width: 1200px) {
 	.combos .overflow-container.part1 {
-		padding: 20px 150px;
+		padding: 20px 150px 0;
 	}
 	.combos .combo-heading1 {
 		font-family: Heavitas;
@@ -2657,31 +2687,27 @@ span.ajax-loader {
 	/* border-image: linear-gradient(to bottom, rgba(0,0,0,0) 25%,rgba(0,0,0,1) 25%,rgba(0,0,0,1) 75%,rgba(0,0,0,0) 75%);
   border-image-slice: 1; */
 }
-.item:after {
-	border-right: 1px solid black;
-}
-.item:nth-child(2):after {
-	border: none
-}
-.item .overflow-container.block{
+
+.item .block{
 	background: #fff;
 }
 .item img {
-	width: 100%;
+
+	height: 100%;
 }
 .item img.combo1 {
-	width: 100%;
+	height: 100%;
 	/* max-width:400px;
   margin:10% 10% 1%; */
 	margin: 5% auto 2%;
 }
 .item img.combo2 {
-	width: 100%;
-	margin: 0 auto 2%;
+	width: 120%;
+	margin: 0% auto 2%;
 }
 .combos .star-icon {
 	color: #ddd;
-	font-size: 0.8em;
+	font: normal normal 30px/1.1 Hevitas;
 	position: relative;
 }
 .combos .star-icon.full:before {
@@ -2823,6 +2849,13 @@ span.ajax-loader {
 		font-size: 0.7em;
 		position: relative;
 	}
+	@-moz-document url-prefix() {
+		/* Firefox Hack :( */
+		.combos .star-icon {
+			font-size: 25px;
+			line-height: 34px;
+		}
+	}
 }
 @media only screen and (max-width: 767px) {
 	.combos .overflow-container.part1 {
@@ -2846,8 +2879,15 @@ span.ajax-loader {
 	}
 	.combos .star-icon {
 		color: #ddd;
-		font-size: 0.6em;
+		font-size: 0.7em;
 		position: relative;
+	}
+	@-moz-document url-prefix() {
+		/* Firefox Hack :( */
+		.combos .star-icon {
+			font-size: 22px;
+			line-height: 31px;
+		}
 	}
 }
 @media only screen and (max-width: 480px) {
@@ -2872,8 +2912,15 @@ span.ajax-loader {
 	}
 	.combos .star-icon {
 		color: #ddd;
-		font-size: 0.4em;
+		font-size: 0.6em;
 		position: relative;
+	}
+	@-moz-document url-prefix() {
+		/* Firefox Hack :( */
+		.combos .star-icon {
+			font-size: 18px;
+			line-height: 27px;
+		}
 	}
 }
 
