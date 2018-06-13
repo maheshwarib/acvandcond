@@ -4815,7 +4815,7 @@ function (t, i) {
 				menu: !1,
 				anchors: [],
 				lockAnchors: !1,
-				navigation: !0,
+				navigation: !1,
 				navigationPosition: "right",
 				navigationTooltips: [],
 				showActiveTooltip: !1,
@@ -7350,6 +7350,9 @@ $(function () {
 		p = $(".header-logo");
 
 	function f() {
+		// $(".hero-video").get(0).play(), $(".hero-video").get(1).play(), setTimeout(function() {
+    //       r.find(".overflow-container, #play-button").addClass("animate"), $(".hero-arrow-small.main").removeClass("hidden")
+    //     }, 1e3)
 		wow_sect1.find(".bg").removeClass("down down-s"),
 		wow_sect1.find(".content").removeClass("down down-s"),
 		$(".home-acv-main").addClass("animate"),
@@ -7439,6 +7442,7 @@ $(function () {
 												wow_sect1.find(".bottle").removeClass("animate"),
 												wow_sect1.find(".content").removeClass("animate"),
 												wow_sect1.find(".overflow-container").removeClass("animate"),
+													$(".acv-arrow-small").addClass("hide"),
 												down_arrow.removeClass("animate"),
 												 $(".home-acv-main").find(h).addClass("animate"),
 												p.removeClass("animate"), wow_sect1.css({
@@ -7603,6 +7607,7 @@ $(function () {
 	new Instafeed({
 		get: "user",
 		userId: "4355028863",
+		// 7285912755
 		limit: 25,
 		resolution: "low_resolution",
 		accessToken: "4355028863.bd54f22.4e963b512afc4425a23fc08f2a038829",

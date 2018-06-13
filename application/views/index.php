@@ -57,10 +57,11 @@
 	</header>
 	<div class="wrapper">
 		<div class="acv main video parallax overlay home-acv-main">
+
 			<h1 class="headline">
         <span class="overflow-container">
           <span class="overflow-inner">
-            Breakthrough shampoo for healthy <br>scalp &amp; gorgeous hair
+            Breakthrough shampoo for healthy <span class="next-line"> scalp &amp; gorgeous hair</span>
 
           </span>
         </span>
@@ -87,11 +88,15 @@
 			</div>
 			<video src="assets/video/acvshampoo.mp4" class="acv-video desktop" autoplay loop muted preload playsinline data-autoplay data-keepplaying ></video>
       <!-- poster="videos/sizzle-standard-poster.jpg" -->
-			<!-- <video src="assets/video/sizzle-mobile.mp4" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="videos/sizzle-mobile-poster.jpg"></video> -->
+
+			<video src="assets/video/acv-mobile.mp4" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying ></video>
+			<!-- <video src="assets/video/acvshampoo-mobile.mp4" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="videos/sizzle-mobile-poster.jpg"></video> -->
 		</div>
 		<div class="video-overlay" rel="eg-video">
 			<div class="video-overlay-inner">
-				<iframe src="https://player.vimeo.com/video/21227?title=0&amp;byline=0&amp;portrait=0" width="1024" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="eg-video"></iframe>
+				<!-- <iframe src="https://player.vimeo.com/video/21227?title=0&amp;byline=0&amp;portrait=0" width="1024" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="eg-video"></iframe> -->
+
+				<iframe src="https://player.vimeo.com/video/274844914?title=0&amp;byline=0&amp;portrait=0" width="1024" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="eg-video"></iframe>
 				<div class="video-overlay-close"></div>
 			</div>
 		</div>
@@ -100,7 +105,7 @@
 			<div class="wow-section">
 				<div class="acv wow-acv-cond acvshampoo">
 					<div class="bg right down down-s">
-						<div class="acv-arrow"></div>
+						<div class="acv-arrow hide"></div>
 						<div class="bottle right"></div>
 					</div>
 					<div class="content left down down-s">
@@ -182,7 +187,7 @@
 						<div class="overflow-container content-breaker">
 							<div class="overflow-inner delay1 ">
 								<h3 class="title">Having a hair crisis every other day?</h3>
-								<h4 class="title2">Well, you’ve come to the right place!</h4>
+								<!-- <h4 class="title2">Well, you’ve come to the right place!</h4> -->
 								<br>
 								<p class="subtitle">Here at WOW Skin Science, we dedicate all our waking hours to researching and formulating new brilliant ways to help you with all your hair woes! Trust us when we say this; what we have is a “Winner”!</p>
 							</div>
@@ -225,15 +230,15 @@
 
 			<div class="section">
 				<div class="wow-acv-cond combos">
-					<div class="overflow-container part1"> <span class="combo-heading1"> Well, what are you <br>waiting for?!</span>
-						<br> <span class="combo-heading2"> Go ahead and grab yours!</span>					</div>
+					<!-- <div class="overflow-container part1"> <span class="combo-heading1"> Well, what are you waiting for?!</span>
+						<br> <span class="combo-heading2"> Go ahead and grab yours!</span>					</div> -->
 					<div class="owl-theme owl-carousel">
 						<div class="item">
 							<img class="owl-lazy combo1" data-src="assets/img/combo1.png" alt="ACV" />
 							<div class="rating"> <span class="star-icon full">☆</span><span class="star-icon full">☆</span>		<span class="star-icon full">☆</span>			<span class="star-icon full">☆</span>								<span class="star-icon">☆</span>
 							</div>
 							<div class="overflow-container block">
-								<p>Apple Cider Vinegar									<br>Shampoo</p>
+								<p>Apple Cider Vinegar<br>Shampoo</p>
 								<p class="price">$29</p>
 								<a href="#" target="_blank" class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
@@ -366,30 +371,33 @@
 		$(function () {
 		  $('.owl-carousel').owlCarousel({
 		    /*the little visible images at the end of the carousel*/
-		    loop:true,
+		    loop:false,
 		    rtl: false,
 		    lazyLoad:true,
-		    margin:0,
 		    nav:false,
 		    items:3,
-		    responsive:{
-		        0:{
-		            items:1
-		        },
-		        600:{
-		            items:1
-		        },
-		        800:{
-		            items: 1
-		        },
-		        1000:{
-		            items:3
-		        },
-		      1200:{
-		          items: 3
-		      }
-		    }
-		  })
+				margin:0,
+				center: true,
+				responsiveClass:true,
+				responsive:{
+				    0:{
+				        items:1,
+								 lazyLoad:true,
+				        nav:false
+				    },
+				    600:{
+				        items:3,
+								 lazyLoad:true,
+				        nav:false
+				    },
+				    1000:{
+				        items:3,
+								 lazyLoad:true,
+				        nav:false,
+				        loop:false
+				    }
+				}
+				})
 		})
 	</script>
 </body>
