@@ -203,11 +203,11 @@ body {
 	transition: background-color 1s
 }
 ::-moz-selection {
-	background: #b3d4fc;
+	background: #111a0c;
 	text-shadow: none
 }
 ::selection {
-	background: #b3d4fc;
+	background: #6c1a0c;
 	text-shadow: none
 }
 hr {
@@ -365,10 +365,10 @@ display: block;
 @media only screen and (max-width: 1200px) {
 	.acvshampoo .title,
 	.cond .title {
-		font-size: 40px
+		font-size: 35px
 	}
 	.rose .title,.rose .title2  {
-		font-size: 24px
+		font-size: 20px
 	}
 }
 @media only screen and (max-height: 730px) and (min-width: 1024px) {
@@ -383,16 +383,18 @@ display: block;
 @media only screen and (max-width: 1023px) {
 	.acvshampoo .title,
 	.cond .title {
-		font-size: 30px
+		font-size: 22px
 	}
 	.rose .title ,.rose .title2 {
-		font-size: 18px
+		font-size: 18px;
+		margin:0;
+		padding:0;
 	}
 }
 @media only screen and (max-width: 767px) {
 	.acvshampoo .title,
 	.cond .title {
-		font-size: 25px
+		font-size: 20px
 	}
 	.rose .title,.rose .title2  {
 		font-size: 16px
@@ -401,7 +403,7 @@ display: block;
 @media only screen and (max-width: 480px) {
 	.acvshampoo .title,
 	.cond .title {
-		font-size: 20px
+		font-size: 18px
 	}
 	.rose .title,.rose .title2  {
 		font-size: 14px
@@ -439,7 +441,7 @@ display: block;
 		font-size: 26px
 	}
 	.rose .subtitle {
-		font: 400 normal 18px/1.1"Open Sans", Arial Black, Helvetica, sans-serif;
+		font: 400 normal 14px/1.1 "Open Sans", Arial Black, Helvetica, sans-serif;
 		margin: 0;
 		padding: 0
 	}
@@ -1133,11 +1135,11 @@ span.ajax-loader {
 .button.secondary::after {
 	background: #fff99f;
 }
-.button.secondary:hover {
+/* .button.secondary:hover {
 	color: #000;
 	background: #fff;
 	border:1px solid #000;
-}
+} */
 .button.secondary:hover::before,
 .button.secondary:hover::after {
 	-webkit-transform: translate3d(0, 100%, 0);
@@ -1170,10 +1172,10 @@ span.ajax-loader {
 	.button.secondary::after {
 		background: #fff;
 	}
-	.button.secondary:hover {
+	/* .button.secondary:hover {
 		color: #000;
 		background-color: #fff;
-	}
+	} */
 	.button.secondary:hover::before,
 	.button.secondary:hover::after {
 		-webkit-transform: translate3d(0, 100%, 0);
@@ -1523,9 +1525,7 @@ span.ajax-loader {
 .footer .text a:hover {
 	text-decoration: underline
 }
-.footer .highlight {
-	color: #b11f24
-}
+
 .footer-social {
 	display: -ms-flexbox;
 	display: flex;
@@ -1647,8 +1647,8 @@ span.ajax-loader {
 .footer-copyright {
 	background-color: #111;
 	text-align: center;
-	height: 40px;
-	font: 400 normal 12px/1.5 Open Sans, Helvetica, Arial, sans-serif;
+	height: 30px;
+	font: 400 normal 12px/1.2 Open Sans, Helvetica, Arial, sans-serif;
 	color: #fff;
 	width: 100%;
 	padding-top: 11px;
@@ -1927,7 +1927,7 @@ span.ajax-loader {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	z-index: -1;
+	z-index: -5;
 }
 .acv.video video.desktop {
 	min-width: 100%;
@@ -2643,6 +2643,31 @@ span.ajax-loader {
 	font-size: 25px;
 	color: #fff;
 }
+
+.combos .overflow-container {
+  z-index: 4;
+  position: relative
+}
+
+
+.item.animate-in {
+  transform: translateY(0);
+  transition-timing-function: cubic-bezier(.24, .72, .35, 1.01)
+}
+
+.item.animate-out {
+  transform: translateY(-200%);
+  transition-timing-function: ease
+}
+
+.combos-item {
+  position: absolute;
+  z-index: 1;
+  transition-property: transform;
+  transform: translateY(200%);
+  transition-timing-function: ease-in-out
+}
+
 .item {
 	display: flex;
 	flex-direction: column;
@@ -2650,6 +2675,9 @@ span.ajax-loader {
 	height: 100%;
 	text-align: center;
 	align-items: center;
+}
+.item.animate-in{
+		transform: translateY(0);
 }
 .item:after {
 	content: "";
@@ -2668,8 +2696,10 @@ span.ajax-loader {
 	width: 100%;
 }
 .item  img.combo1{
-    height:473px;
-    width:295px;
+    /* height:473px;
+    width:295px; */
+		height:100%;
+		width:100%;
     padding: 0;
   	margin: 16vh auto 2%;
     padding-right: 5px;
@@ -2677,8 +2707,10 @@ span.ajax-loader {
 
 }
 .item  img.combo2{
-    height:473px;
-    width:295px;
+    /* height:473px;
+    width:295px; */
+		height:100%;
+		width:100%;
     padding: 0;
   	margin: 12vh auto 2%;
     padding-right: 5px;
@@ -2723,7 +2755,7 @@ span.ajax-loader {
 .combos .price {
 	font: 800 normal 35px/1 Open Sans, Helvetica, Arial, sans-serif;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width:1200px) {
 	.item img.combo1{
 		height:100%;
 		width:100%;
@@ -2937,7 +2969,7 @@ span.ajax-loader {
 	margin: 0;
 	position: absolute;
 	/* top: 16%; */
-	top:5vh;
+	top:14vh;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	/* transform: translate(100%, -50%); */
@@ -2952,6 +2984,7 @@ span.ajax-loader {
 @media only screen and (max-width: 1024px) {
 	.instafeed .heading {
 			font-size: 24px;
+			top:5vw;
 
 	}
 }

@@ -73,7 +73,7 @@
         </span>
 
       </h1>
-			<div class="overflow-container acv-play js-video-link">
+			<!-- <div class="overflow-container acv-play js-video-link">
 				<div class="overflow-inner delay2">
 					<div class="acv-play-button">
 						<!-- <svg version="1.1" id="play-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 110.9 110.9" style="enable-background:new 0 0 110.9 110.9;" xml:space="preserve">
@@ -81,25 +81,25 @@
             S2.5,84.7,2.5,55.4S26.2,2.5,55.4,2.5"  stroke-linecap="round"/>
           <polyline id="play-button-triangle" points="52.2,33.8 84.9,55.4 42.5,83.4 42.5,28.7"  stroke-linecap="round" />
           </svg> -->
-				<svg id="Layer_1" data-name="Layer 1" id="play-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89"  width="60px"><defs><style>.cls-1{fill:#fff;stroke:#fff;stroke-miterlimit:10;}</style></defs><title>Video Button-01</title><path class="cls-1" d="M50,6A44,44,0,0,0,6.78,41.63a2,2,0,1,0,3.94.75A40.06,40.06,0,1,1,10,50a2,2,0,0,0-4-.06H6V50A44,44,0,1,0,50,6ZM42.78,32A2,2,0,0,0,41,34V66a2,2,0,0,0,2,2,2.08,2.08,0,0,0,1.13-.34l24-16a2,2,0,0,0,.57-2.77,2,2,0,0,0-.57-.58l-24-16A2,2,0,0,0,42.78,32ZM45,37.75,63.38,50,45,62.22Z" transform="translate(-5.5 -5.5)"/></svg>
+				<!-- <svg id="Layer_1" data-name="Layer 1" id="play-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89"  width="60px"><defs><style>.cls-1{fill:#fff;stroke:#fff;stroke-miterlimit:10;}</style></defs><title>Video Button-01</title><path class="cls-1" d="M50,6A44,44,0,0,0,6.78,41.63a2,2,0,1,0,3.94.75A40.06,40.06,0,1,1,10,50a2,2,0,0,0-4-.06H6V50A44,44,0,1,0,50,6ZM42.78,32A2,2,0,0,0,41,34V66a2,2,0,0,0,2,2,2.08,2.08,0,0,0,1.13-.34l24-16a2,2,0,0,0,.57-2.77,2,2,0,0,0-.57-.58l-24-16A2,2,0,0,0,42.78,32ZM45,37.75,63.38,50,45,62.22Z" transform="translate(-5.5 -5.5)"/></svg>
 
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<video src="assets/video/acvshampoo.mp4" class="acv-video desktop" autoplay loop muted preload playsinline data-autoplay data-keepplaying ></video>
       <!-- poster="videos/sizzle-standard-poster.jpg" -->
 
 			<video src="assets/video/acv-mobile.mp4" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying ></video>
 			<!-- <video src="assets/video/acvshampoo-mobile.mp4" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="videos/sizzle-mobile-poster.jpg"></video> -->
 		</div>
-		<div class="video-overlay" rel="eg-video">
+		<!-- <div class="video-overlay" rel="eg-video">
 			<div class="video-overlay-inner">
 				<!-- <iframe src="https://player.vimeo.com/video/21227?title=0&amp;byline=0&amp;portrait=0" width="1024" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="eg-video"></iframe> -->
 
-				<iframe src="https://player.vimeo.com/video/274844914?title=0&amp;byline=0&amp;portrait=0" width="1024" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="eg-video"></iframe>
+				<!-- <iframe src="https://player.vimeo.com/video/274844914?title=0&amp;byline=0&amp;portrait=0" width="1024" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="eg-video"></iframe>
 				<div class="video-overlay-close"></div>
 			</div>
-		</div>
+		</div> -->
 		<div class="wow">
 			<!-- acvshampoo -->
 			<div class="wow-section">
@@ -132,7 +132,7 @@
 							<div class="overflow-inner delay2">
 								<h3 class="title">blended with</h3>
 								<p class="subtitle">Sweet Almond Oil
-									<br>Argan Oil</p> <br><a href="#" target="_blank" class="button secondary">READ MORE</a>
+									<br>Argan Oil</p> <br><a href="#"  class="button secondary">READ MORE</a>
 							</div>
 						</div>
 					</div>
@@ -170,7 +170,7 @@
 								<h3 class="title">blended with </h3>
 								<p class="subtitle">Cold Pressed
 									<br>Avocado Oil
-									<br>Vitamins B5 &amp; E</p> <br><a href="#" target="_blank" class="button secondary">READ MORE</a>
+									<br>Vitamins B5 &amp; E</p> <br><a href="#"  class="button secondary">READ MORE</a>
 							</div>
 						</div>
 					</div>
@@ -209,7 +209,7 @@
 								<h3 class="title">Where does the conditioner come in?</h3>
 								<br>
 								<p class="subtitle">If you’re not too lazy to go the extra mile to preserve and cherish your hair, why don’t you try WOW Skin Science Hair Conditioner after the shampoo, and make this dynamic duo into a routine?</p>
-                <a href="#" target="_blank" class="button secondary">Read More</a>
+                <a href="#"  class="button secondary">Read More</a>
 							</div>
 							<br>
 						</div>
@@ -240,7 +240,7 @@
 							<div class="overflow-container block">
 								<p>Apple Cider Vinegar<br>Shampoo</p>
 								<p class="price">$29</p>
-								<a href="#" target="_blank" class="button secondary">SHOP NOW&nbsp;</a>
+								<a href="#"  class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
 						<div class="item">
@@ -256,7 +256,7 @@
 									<br>+
 									<br>Hair Conditioner</p>
 								<p class="price">$49</p>
-							<a href="#" target="_blank" class="button secondary">SHOP NOW&nbsp;</a>
+							<a href="#"  class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
 						<div class="item">
@@ -273,7 +273,7 @@
 									<br>
 								</p>
 								<p class="price">$29</p>
-									<a href="#" target="_blank" class="button secondary">SHOP NOW&nbsp;</a>
+									<a href="#"  class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
 					</div>
@@ -283,7 +283,7 @@
 			<div class="section">
 				<div class="instafeed">
 					<div class="overflow-container">
-						<h1 class="heading">  see WHAT all the <br> fuzz is about! </h1>
+						<h1 class="heading">see WHAT all the <br> fuzz is about! </h1>
 					</div>
 					<div class="footer-social-feed" id="instafeed"></div>
 				</div>
@@ -313,7 +313,7 @@
 								<div class="newsletter-signup">
 									<!-- Begin MailChimp Signup Form -->
 									<div>
-										<form action="" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+										<form action="" method="post" name="mc-embedded-subscribe-form" class="validate"  novalidate>
 											<input type="email" value="" name="EMAIL" class="required email" placeholder="Email Address">
 											<div class="clear">
 												<div class="response" style="display:none"></div>
@@ -354,8 +354,8 @@
 			</div>
 		</div>
 	</div>
-
-	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/jquery-migrate.min.js"></script>
+	<script src="assets/js/jqueryb8ff.js"></script>
 	<script src="assets/js/script.js"></script>
 	<!-- <script>
 		$(window).on("load", function() {
@@ -394,7 +394,7 @@
 				        items:3,
 								 lazyLoad:true,
 				        nav:false,
-				        loop:false
+				        loop:true
 				    }
 				}
 				})

@@ -7344,7 +7344,7 @@ $(function () {
 		wow_sect4 = $(".wow-section").eq(3),
 		// wow_sect5 = $(".wow-section").eq(4),
 		r = $(".home-acv-main"),
-		d = $(".ethos-acv"),
+		d = $(".combos"),
 		down_arrow = $(".acv-arrow"),
 		h = $(".overflow-container"),
 		p = $(".header-logo");
@@ -7355,8 +7355,8 @@ $(function () {
     //     }, 1e3)
 		wow_sect1.find(".bg").removeClass("down down-s"),
 		wow_sect1.find(".content").removeClass("down down-s"),
-		$(".home-acv-main").addClass("animate"),
-		main_class.find(".overflow-container, #play-button").removeClass("animate"),
+		main_class.addClass("animate"),
+		main_class.find(".overflow-container, #play-button").addClass("animate"),
 
 		wow_sect1.find('.headline').addClass("animate"),
 		// wow_sect1.find(".overflow-container").addClass("animate"),	 wow_sect1.find(".acv-line-texture").addClass("animate"),	wow_sect1.find("#play-button").addClass("animate")
@@ -7430,9 +7430,9 @@ $(function () {
 																		wow_sect4.find(".overflow-container").removeClass("animate"),
 																		wow_sect4.find(".content").removeClass("animate"),
 																		wow_sect4.find(".content").addClass("down"),
-																		d.find(".ethos-acv-items").addClass("animate-in"),
+																		d.find(".item").addClass("animate-in"),
 																		d.find(h).addClass("animate")),
-													4 === n && (d.find(".ethos-acv-items").addClass("animate-out"),
+													4 === n && (d.find(".item").addClass("animate-out"),
 													 						d.find(h).removeClass("animate"))),
 				"up" === i && (-1 === n && (wow_sect1.find(".bg").addClass("down down-s"),
 											 wow_sect1.find(".content").addClass("down down-s"),
@@ -7490,12 +7490,12 @@ $(function () {
 													wow_sect4.find(".overflow-container").addClass("animate"),
 													wow_sect4.find(".content").addClass("animate"),
 													wow_sect4.find(".content").removeClass("last-down"),
-													d.find(".ethos-acv-items").removeClass("animate-in"),
+													d.find(".item").removeClass("animate-in"),
 													d.find(h).removeClass("animate"),setTimeout(function() {
 															$("#wow").removeClass("show")
 															}, 999)),
 												 3 === n && (
-													 d.find(".ethos-acv-items").removeClass("animate-out"),
+													 d.find(".item").removeClass("animate-out"),
 												  d.find(h).addClass("animate")))
 												// ,setTimeout(function() {		$("#wow").removeClass("show")		}, 4700)
 											},
@@ -7594,7 +7594,8 @@ $(function() {
     thisTmSection = $(this), "down" === e && thisTmSection.find(".overflow-container").addClass("animate")
   }, {
     offset: "90%"
-  })), $(".acv-arrow-small").click(function() {
+  })),
+	 $(".acv-arrow-small").click(function() {
     $.fn.fullpage.moveSectionDown()
   });
   setInterval(function() {
