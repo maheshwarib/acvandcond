@@ -73,33 +73,14 @@
         </span>
 
       </h1>
-			<!-- <div class="overflow-container acv-play js-video-link">
-				<div class="overflow-inner delay2">
-					<div class="acv-play-button">
-						<!-- <svg version="1.1" id="play-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 110.9 110.9" style="enable-background:new 0 0 110.9 110.9;" xml:space="preserve">
-          <path id="play-button-circle" class="st0" d="M65.1,3.4c24.6,4.5,43.3,26.1,43.3,52.1c0,29.2-23.7,52.9-52.9,52.9
-            S2.5,84.7,2.5,55.4S26.2,2.5,55.4,2.5"  stroke-linecap="round"/>
-          <polyline id="play-button-triangle" points="52.2,33.8 84.9,55.4 42.5,83.4 42.5,28.7"  stroke-linecap="round" />
-          </svg> -->
-				<!-- <svg id="Layer_1" data-name="Layer 1" id="play-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89"  width="60px"><defs><style>.cls-1{fill:#fff;stroke:#fff;stroke-miterlimit:10;}</style></defs><title>Video Button-01</title><path class="cls-1" d="M50,6A44,44,0,0,0,6.78,41.63a2,2,0,1,0,3.94.75A40.06,40.06,0,1,1,10,50a2,2,0,0,0-4-.06H6V50A44,44,0,1,0,50,6ZM42.78,32A2,2,0,0,0,41,34V66a2,2,0,0,0,2,2,2.08,2.08,0,0,0,1.13-.34l24-16a2,2,0,0,0,.57-2.77,2,2,0,0,0-.57-.58l-24-16A2,2,0,0,0,42.78,32ZM45,37.75,63.38,50,45,62.22Z" transform="translate(-5.5 -5.5)"/></svg>
 
-					</div>
-				</div>
-			</div> -->
 			<video src="assets/video/acvshampoo.mp4" class="acv-video desktop" autoplay loop muted preload playsinline data-autoplay data-keepplaying ></video>
       <!-- poster="videos/sizzle-standard-poster.jpg" -->
 
-			<video src="assets/video/acv-mobile.mp4" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying ></video>
+			<video src="assets/video/acvshampoo-mobile.mp4" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying ></video>
 			<!-- <video src="assets/video/acvshampoo-mobile.mp4" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="videos/sizzle-mobile-poster.jpg"></video> -->
 		</div>
-		<!-- <div class="video-overlay" rel="eg-video">
-			<div class="video-overlay-inner">
-				<!-- <iframe src="https://player.vimeo.com/video/21227?title=0&amp;byline=0&amp;portrait=0" width="1024" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="eg-video"></iframe> -->
 
-				<!-- <iframe src="https://player.vimeo.com/video/274844914?title=0&amp;byline=0&amp;portrait=0" width="1024" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="eg-video"></iframe>
-				<div class="video-overlay-close"></div>
-			</div>
-		</div> -->
 		<div class="wow">
 			<!-- acvshampoo -->
 			<div class="wow-section">
@@ -240,7 +221,7 @@
 							<div class="overflow-container block">
 								<p>Apple Cider Vinegar<br>Shampoo</p>
 								<p class="price">$29</p>
-								<a href="#"  class="button secondary">SHOP NOW&nbsp;</a>
+								<a href="#" class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
 						<div class="item">
@@ -333,8 +314,8 @@
 								<ul class="footer-social-icons">
 									<li>
 										<a href="https://www.instagram.com/buywow/" class="footer-social-instagram">
-	<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 299.98 299.8"><defs><style>.cls-1{fill:#fff;}</style></defs><title>insta</title><path class="cls-1" d="M149.9,73.2c-43.3,0-76.7,34.1-76.7,76.7s34.1,77.4,76.7,77.4c43.3,0,77.4-34.1,77.4-77.4S193.3,73.2,149.9,73.2Zm0,127.2a49.7,49.7,0,1,1,49.7-49.7C199.6,178.4,178.3,200.4,149.9,200.4ZM299.1,88.1c-.7-16.3-2.8-27-7.1-36.2a100.22,100.22,0,0,0-17.1-27c-7.8-7.8-17.1-12.8-27-17.1S228,2.1,211.7.7C196.1,0,190.4,0,149.9,0S103.7,0,88.1.7c-16.3.7-27,2.8-36.2,7.1a100.22,100.22,0,0,0-27,17.1C17.1,32.7,12.1,42,7.8,51.9S2.1,71.8.7,88.1C0,104.4,0,109.4,0,149.9s0,46.2.7,61.8c.7,16.3,2.8,27,7.1,36.2a100.22,100.22,0,0,0,17.1,27c7.8,7.8,17.1,12.8,27,17.1s19.9,5.7,36.2,7.1c16.3.7,21.3.7,61.8.7,41.2,0,46.2,0,61.8-.7,16.3-.7,27-2.8,36.2-7.1a100.22,100.22,0,0,0,27-17.1c7.8-7.8,12.8-17.1,17.1-27s5.7-19.9,7.1-36.2c.7-16.3.7-21.3.7-61.8S300.5,104.4,299.1,88.1ZM272.1,211c-.7,14.9-2.8,22.7-5,27.7-2.8,7.1-5.7,12.1-10.7,17.1s-9.9,9.2-17.1,11.4c-5,2.1-12.8,4.3-27.7,5-16.3.7-21.3.7-61.1.7s-44.8,0-61.1-.7c-14.9-.7-22.7-2.8-27.7-5-7.1-2.8-12.1-5.7-17.1-11.4-5-5-9.2-9.9-10.7-17.1-2.1-5-4.3-12.8-5-27.7-.7-16.3-.7-21.3-.7-61.1s0-44.8.7-61.1c.7-14.9,2.8-22.7,5-27.7C36.9,54,39.8,49,44.8,44s9.9-9.2,17.1-11.4c5-2.1,12.8-4.3,27.7-5,16.3-.7,21.3-.7,61.1-.7s44.8,0,61.1.7c14.9.7,22.7,2.8,27.7,5,7.1,2.8,12.1,5.7,17.1,11.4s9.2,9.9,10.7,17.1c2.1,5.7,4.3,14.2,5,27.7.7,16.3.7,21.3.7,61.1S273.5,195.4,272.1,211ZM248,70.3a17.8,17.8,0,1,1-17.8-17.8C240.1,51.9,248,60.4,248,70.3Z"/></svg>
-										</a>
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 299.98 299.8"><defs><style>.cls-1{fill:#fff;}</style></defs><title>insta</title><path class="cls-1" d="M149.9,73.2c-43.3,0-76.7,34.1-76.7,76.7s34.1,77.4,76.7,77.4c43.3,0,77.4-34.1,77.4-77.4S193.3,73.2,149.9,73.2Zm0,127.2a49.7,49.7,0,1,1,49.7-49.7C199.6,178.4,178.3,200.4,149.9,200.4ZM299.1,88.1c-.7-16.3-2.8-27-7.1-36.2a100.22,100.22,0,0,0-17.1-27c-7.8-7.8-17.1-12.8-27-17.1S228,2.1,211.7.7C196.1,0,190.4,0,149.9,0S103.7,0,88.1.7c-16.3.7-27,2.8-36.2,7.1a100.22,100.22,0,0,0-27,17.1C17.1,32.7,12.1,42,7.8,51.9S2.1,71.8.7,88.1C0,104.4,0,109.4,0,149.9s0,46.2.7,61.8c.7,16.3,2.8,27,7.1,36.2a100.22,100.22,0,0,0,17.1,27c7.8,7.8,17.1,12.8,27,17.1s19.9,5.7,36.2,7.1c16.3.7,21.3.7,61.8.7,41.2,0,46.2,0,61.8-.7,16.3-.7,27-2.8,36.2-7.1a100.22,100.22,0,0,0,27-17.1c7.8-7.8,12.8-17.1,17.1-27s5.7-19.9,7.1-36.2c.7-16.3.7-21.3.7-61.8S300.5,104.4,299.1,88.1ZM272.1,211c-.7,14.9-2.8,22.7-5,27.7-2.8,7.1-5.7,12.1-10.7,17.1s-9.9,9.2-17.1,11.4c-5,2.1-12.8,4.3-27.7,5-16.3.7-21.3.7-61.1.7s-44.8,0-61.1-.7c-14.9-.7-22.7-2.8-27.7-5-7.1-2.8-12.1-5.7-17.1-11.4-5-5-9.2-9.9-10.7-17.1-2.1-5-4.3-12.8-5-27.7-.7-16.3-.7-21.3-.7-61.1s0-44.8.7-61.1c.7-14.9,2.8-22.7,5-27.7C36.9,54,39.8,49,44.8,44s9.9-9.2,17.1-11.4c5-2.1,12.8-4.3,27.7-5,16.3-.7,21.3-.7,61.1-.7s44.8,0,61.1.7c14.9.7,22.7,2.8,27.7,5,7.1,2.8,12.1,5.7,17.1,11.4s9.2,9.9,10.7,17.1c2.1,5.7,4.3,14.2,5,27.7.7,16.3.7,21.3.7,61.1S273.5,195.4,272.1,211ZM248,70.3a17.8,17.8,0,1,1-17.8-17.8C240.1,51.9,248,60.4,248,70.3Z"/></svg>
+																			</a>
 									</li>
 
 									<li>
@@ -354,17 +335,17 @@
 			</div>
 		</div>
 	</div>
-	<script src="assets/js/jquery-migrate.min.js"></script>
-	<script src="assets/js/jqueryb8ff.js"></script>
+	<!-- <script src="assets/js/jquery-migrate.min.js"></script>
+	<script src="assets/js/jqueryb8ff.js"></script> -->
 	<script src="assets/js/script.js"></script>
-	<!-- <script>
+	<script>
 		$(window).on("load", function() {
 		      $('#instafeed > a > img').each(function(){
 		          var src = $(this).attr('src');
 		          $(this).attr('src',src.replace('150x150', '480x480'));
 		      });
 		  });
-	</script> -->
+	</script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js">
 	</script>
 	<script type="text/javascript">

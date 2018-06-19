@@ -7510,9 +7510,6 @@ $(function () {
 		},
 		afterLoad: function (e, t) {
 
-			// 1 == t ? ($(".acv-video").get(0).play(), $(".acv-video").get(1).play(), setTimeout(function() {
-			// 	main_class.find(".overflow-container, #play-button").addClass("animate"), $(".acv-arrow-small.main").removeClass("hidden")
-			// }, 1e3)),$(this).find(".acv-arrow-small").removeClass("hide"),
 			$(this).find(".acv-arrow-small").removeClass("hide"),
 			$(".wow-section:eq(" + (t - 2) + ")").find(".acv-arrow-small").removeClass("hide")
 
