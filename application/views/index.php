@@ -74,11 +74,9 @@
 
       </h1>
 
-			<video src="assets/video/acvshampoo.mp4" class="acv-video desktop" autoplay loop muted preload playsinline data-autoplay data-keepplaying ></video>
-      <!-- poster="videos/sizzle-standard-poster.jpg" -->
+			<video src="assets/video/acvshampoo.mp4" class="acv-video desktop" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/acv-poster.jpg"></video>
+    	<video src="assets/video/acvshampoo-mobile.mp4" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/acv-mobile-poster.jpg"></video>
 
-			<video src="assets/video/acvshampoo-mobile.mp4" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying ></video>
-			<!-- <video src="assets/video/acvshampoo-mobile.mp4" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="videos/sizzle-mobile-poster.jpg"></video> -->
 		</div>
 
 		<div class="wow">
@@ -143,7 +141,6 @@
 								<h3 class="title">Key Ingredient</h3>
 								<p class="subtitle">Cold Pressed</p>
 								<p class="subtitle">Virgin Coconut Oil</p>
-								<!-- <p class="subtitle">Tater tots</p> -->
 							</div>
 						</div>
 						<div class="overflow-container">
@@ -165,18 +162,18 @@
 						<div class="bottle  right "></div>
 					</div>
 					<div class="content left up down-s">
-						<div class="overflow-container content-breaker">
+						<!-- <div class="overflow-container content-breaker">
 							<div class="overflow-inner delay1 ">
 								<h3 class="title">Having a hair crisis every other day?</h3>
-								<!-- <h4 class="title2">Well, you’ve come to the right place!</h4> -->
+								<h4 class="title2">Well, you’ve come to the right place!</h4>
 								<br>
 								<p class="subtitle">Here at WOW Skin Science, we dedicate all our waking hours to researching and formulating new brilliant ways to help you with all your hair woes! Trust us when we say this; what we have is a “Winner”!</p>
 							</div>
 							<br>
 							<br>
-						</div>
+						</div> -->
 						<div class="overflow-container">
-							<div class="overflow-inner delay2">
+							<div class="overflow-inner delay1">
 								<h3 class="title">Wondering what is vinegar doing in a shampoo?</h3>
 								<br>
 								<p class="subtitle">WOW Skin Science Apple Cider Vinegar Shampoo is power-packed with the super-ingredient ‘Apple Cider Vinegar’, which besides the name, is quite beneficial in nourishing your hair back to health.</p>
@@ -185,7 +182,7 @@
 							<br>
 						</div>
 						<div class="overflow-container">
-							<div class="overflow-inner delay3">
+							<div class="overflow-inner delay2">
 								<br>
 								<h3 class="title">Where does the conditioner come in?</h3>
 								<br>
@@ -295,7 +292,7 @@
 									<!-- Begin MailChimp Signup Form -->
 									<div>
 										<form action="" method="post" name="mc-embedded-subscribe-form" class="validate"  novalidate>
-											<input type="email" value="" name="EMAIL" class="required email" placeholder="Email Address">
+											<input type="email" value="" name="EMAIL" class="required email" placeholder="Email Address" disabled>
 											<div class="clear">
 												<div class="response" style="display:none"></div>
 												<div class="response" style="display:none"></div>
@@ -304,7 +301,7 @@
 											<div style="position: absolute; left: -5000px;" aria-hidden="true">
 												<input type="text" name="" tabindex="-1" value="">
 											</div>
-											<input type="submit" value="" name="subscribe" class="button">
+											<input type="submit" value="" name="subscribe" class="button" disabled>
 										</form>
 									</div>
 
@@ -328,7 +325,7 @@
 						</div>
 						</div>
 					</div>
-					<div class="footer-copyright"> <span class="footer-copyright-item">&copy; 2013-2018 Created by &amp; All Rights Reserved - Fit and Glow Healthcare Pvt Ltd.</span>
+					<div class="footer-copyright"> <span class="footer-copyright-item">&copy;2013-2018 Created by &amp; All Rights Reserved <br> Fit and Glow Healthcare Pvt Ltd.</span>
 
 					</div>
 				</footer>

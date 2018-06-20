@@ -318,11 +318,9 @@ a:visited {
 .eyebrow {
 	color: #fff;
 	font-weight: 400;
-	/* text-transform: uppercase; */
 	text-transform: none;
-display: block;
+	display: block;
 	font: normal normal 28px/1.1 "Open Sans", Arial Black, Helvetica, sans-serif;
-	/* line-height: 0.9; */
 	margin: 5px 0;
 	padding: 0;
 	letter-spacing: 0em
@@ -424,19 +422,19 @@ display: block;
 @media only screen and (max-width: 767px) {
 	.acvshampoo .title,
 	.cond .title {
-		font-size: 20px
+		font-size: 24px
 	}
 	.rose .title,.rose .title2  {
-		font-size: 16px
+		font-size: 18px
 	}
 }
 @media only screen and (max-width: 480px) {
 	.acvshampoo .title,
 	.cond .title {
-		font-size: 18px
+		font-size: 22px
 	}
 	.rose .title,.rose .title2  {
-		font-size: 14px
+		font-size: 16px
 	}
 }
 .default-content-inner h2,
@@ -662,13 +660,6 @@ display: block;
 .wine-subtitle2+.wine-subtitle2 {
 	margin-top: 5px
 }
-/*!
- * fullPage 2.9.2
- * https://github.com/alvarotrigo/fullPage.js
- * MIT licensed
- *
- * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
- */
 
 html.fp-enabled,
 .fp-enabled body {
@@ -700,7 +691,6 @@ html.fp-enabled,
 	overflow: hidden;
 	position: relative;
 	-webkit-transition: all 0.3s ease-out;
-	/* Safari<=6 Android<=4.3 */
 	transition: all 0.3s ease-out;
 }
 .fp-section.fp-table,
@@ -721,13 +711,9 @@ html.fp-enabled,
 }
 .fp-controlArrow {
 	-webkit-user-select: none;
-	/* webkit (safari, chrome) browsers */
 	-moz-user-select: none;
-	/* mozilla browsers */
 	-khtml-user-select: none;
-	/* webkit (konqueror) browsers */
 	-ms-user-select: none;
-	/* IE10+ */
 	position: absolute;
 	z-index: 4;
 	top: 50%;
@@ -1100,7 +1086,6 @@ span.ajax-loader {
 	border-radius: 5px;
 	position: relative;
 	background-color: #000;
-	/* transition: background-position .2s linear, padding .2s linear, background-color .2s */
 	transition: background-position .2s linear, padding .2s linear, #000 .2s
 }
 @media only screen and (max-width: 767px) {
@@ -1165,11 +1150,7 @@ span.ajax-loader {
 .button.secondary::after {
 	background: #fff99f;
 }
-/* .button.secondary:hover {
-	color: #000;
-	background: #fff;
-	border:1px solid #000;
-} */
+
 .button.secondary:hover::before,
 .button.secondary:hover::after {
 	-webkit-transform: translate3d(0, 100%, 0);
@@ -1202,10 +1183,7 @@ span.ajax-loader {
 	.button.secondary::after {
 		background: #fff;
 	}
-	/* .button.secondary:hover {
-		color: #000;
-		background-color: #fff;
-	} */
+
 	.button.secondary:hover::before,
 	.button.secondary:hover::after {
 		-webkit-transform: translate3d(0, 100%, 0);
@@ -1249,46 +1227,6 @@ span.ajax-loader {
 	transform: translateY(100%);
 	transition-delay: 1s;
 	display: block
-}
-.close-button {
-	position: absolute;
-	top: 20px;
-	right: 20px;
-	background: transparent;
-	border: none;
-	border-radius: 0;
-	box-shadow: none;
-	-moz-appearance: none;
-	appearance: none;
-	-webkit-appearance: none;
-	text-indent: -9999px;
-	width: 50px;
-	height: 50px;
-	padding: 0
-}
-.close-button:after,
-.close-button:before {
-	content: "";
-	display: block;
-	position: absolute;
-	width: 35px;
-	left: 50%;
-	top: 23px;
-	transform: translateX(-50%);
-	background-color: #cac4bd;
-	height: 3px;
-	margin-left: auto;
-	margin-right: auto;
-	transform-origin: center center
-}
-.close-button:before {
-	transform: translateX(-50%) rotate(45deg)
-}
-.close-button:after {
-	transform: translateX(-50%) rotate(-45deg)
-}
-.close-button:focus {
-	outline: 0
 }
 .header-logo {
 	display: block;
@@ -1477,7 +1415,7 @@ span.ajax-loader {
 }
 @media only screen and (max-width: 767px) {
 	.footer-section {
-		padding: 8vw
+		padding: 4vw
 	}
 }
 .footer-trade {
@@ -1509,7 +1447,7 @@ span.ajax-loader {
 }
 @media only screen and (max-width: 767px) {
 	.footer-newsletter {
-		margin-bottom: 20px
+		margin-bottom: 0px
 	}
 }
 .footer-newsletter input[type=email] {
@@ -1567,10 +1505,13 @@ span.ajax-loader {
 	margin: 0 6px 0 0;
 	padding: 0
 }
-@media only screen and (max-width: 1023px) {
-	/* .footer-social-icons {
-		display: none
-	} */
+@media only screen and (max-width: 480px) {
+	.footer-social-icons {
+		width: calc(0px);
+		margin: 0  0;
+		padding: 0;
+		display: none;
+	}
 }
 .footer-social-icons li {
 	margin: 0;
@@ -1638,29 +1579,24 @@ span.ajax-loader {
 }
 @media only screen and (max-width: 1023px) {
 	.footer-social-feed a {
-		width: calc(25% - 0.5px);
-		height: calc(50% - 0.5px);
+		width: calc(16.66% - 1px);
+		height: calc(33.33% - 1px);
 		}
 }
 @media only screen and (max-width: 767px) {
 	.footer-social-feed a {
-		width: calc(25% - 0.001px);
-			height: calc(50% - 0.5px);
-		/* padding-top: calc(25% - 6px) */
+		width: calc(24.99% - 1px);
+		height: calc(24.99% - 1px);
+
 	}
 }
 @media only screen and (max-width: 480px) {
 	.footer-social-feed a {
-		width: calc(24.55% - 0.005px);
-		height: calc(24.55% - 0.005px);
-		/* padding-top: calc(25% - 6px) */
+		width: calc(24.99% - 1px);
+		height: calc(24.99% - 1px);
+
 	}
 }
-/*
-.footer-social-feed a:nth-child(3n) {
-  margin-right: 0
-} */
-
 
 .footer-social-feed img {
 	display: block;
@@ -1670,7 +1606,7 @@ span.ajax-loader {
 .footer-copyright {
 	background-color: #111;
 	text-align: center;
-	height: 40px;
+	height: 50px;
 	font: 400 normal 12px/1.2 Open Sans, Helvetica, Arial, sans-serif;
 	color: #fff;
 	width: 100%;
@@ -1685,10 +1621,11 @@ span.ajax-loader {
 		letter-spacing: .03em
 	}
 }
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 380px) {
 	.footer-copyright {
-		font-size: 8px;
-		letter-spacing: 0
+		padding-top: 4px;
+		font: 400 normal 10px/1.5 Open Sans, Helvetica, Arial, sans-serif;
+		letter-spacing: .05em;
 	}
 }
 @keyframes b {
@@ -3015,10 +2952,8 @@ max-height:100%;
 	margin: 0;
 	position: absolute;
 	top: 16%;
-	/* top:14vh; */
 	left: 50%;
 	transform: translate(-50%, -50%);
-	/* transform: translate(100%, -50%); */
 }
 .instafeed .footer-social-feed {
 	margin: 16.6% 0 0;
@@ -3029,23 +2964,20 @@ max-height:100%;
 
 @media only screen and (max-width: 1024px) {
 	.instafeed .heading {
+			top:8%;
 			font-size: 24px;
-
-
 	}
 }
 @media only screen and (max-width: 767px) {
 	.instafeed .heading {
 			font-size: 18px;
 			top:5%;
-
 	}
 }
 @media only screen and (max-width: 480px) {
 	.instafeed .heading {
 			font-size: 18px;
 			top:5%;
-
 	}
 }
 @media only screen and (max-width: 380px) {

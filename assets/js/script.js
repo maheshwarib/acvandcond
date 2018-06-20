@@ -4041,39 +4041,7 @@ function (e) {
 		})
 	}
 }),
-function (o) {
-	"use strict";
-	o.fn.fitVids = function (e) {
-		var i = {
-			customSelector: null,
-			ignore: null
-		};
-		if (!document.getElementById("fit-vids-style")) {
-			var t = document.head || document.getElementsByTagName("head")[0],
-				n = document.createElement("div");
-			n.innerHTML = '<p>x</p><style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style>', t.appendChild(n.childNodes[1])
-		}
-		return e && o.extend(i, e), this.each(function () {
-			var e = ['iframe[src*="player.vimeo.com"]', 'iframe[src*="youtube.com"]', 'iframe[src*="youtube-nocookie.com"]', 'iframe[src*="kickstarter.com"][src*="video.html"]', "object", "embed"];
-			i.customSelector && e.push(i.customSelector);
-			var n = ".fitvidsignore";
-			i.ignore && (n = n + ", " + i.ignore);
-			var t = o(this).find(e.join(","));
-			(t = (t = t.not("object object")).not(n)).each(function () {
-				var e = o(this);
-				if (!(0 < e.parents(n).length || "embed" === this.tagName.toLowerCase() && e.parent("object").length || e.parent(".fluid-width-video-wrapper").length)) {
-					e.css("height") || e.css("width") || !isNaN(e.attr("height")) && !isNaN(e.attr("width")) || (e.attr("height", 9), e.attr("width", 16));
-					var t = ("object" === this.tagName.toLowerCase() || e.attr("height") && !isNaN(parseInt(e.attr("height"), 10)) ? parseInt(e.attr("height"), 10) : e.height()) / (isNaN(parseInt(e.attr("width"), 10)) ? e.width() : parseInt(e.attr("width"), 10));
-					if (!e.attr("name")) {
-						var i = "fitvid" + o.fn.fitVids._count;
-						e.attr("name", i), o.fn.fitVids._count++
-					}
-					e.wrap('<div class="fluid-width-video-wrapper"></div>').parent(".fluid-width-video-wrapper").css("padding-top", 100 * t + "%"), e.removeAttr("height").removeAttr("width")
-				}
-			})
-		})
-	}, o.fn.fitVids._count = 0
-}(window.jQuery || window.Zepto),
+
 function (t, i) {
 	"use strict";
 	"function" == typeof define && define.amd ? define(["jquery"], function (e) {
@@ -7342,7 +7310,6 @@ $(function () {
 		wow_sect2 = $(".wow-section").eq(1),
 		wow_sect3 = $(".wow-section").eq(2),
 		wow_sect4 = $(".wow-section").eq(3),
-		// wow_sect5 = $(".wow-section").eq(4),
 		r = $(".home-acv-main"),
 		d = $(".combos"),
 		down_arrow = $(".acv-arrow"),
@@ -7350,16 +7317,12 @@ $(function () {
 		p = $(".header-logo");
 
 	function f() {
-		// $(".hero-video").get(0).play(), $(".hero-video").get(1).play(), setTimeout(function() {
-    //       r.find(".overflow-container, #play-button").addClass("animate"), $(".hero-arrow-small.main").removeClass("hidden")
-    //     }, 1e3)
+
 		wow_sect1.find(".bg").removeClass("down down-s"),
 		wow_sect1.find(".content").removeClass("down down-s"),
 		main_class.addClass("animate"),
 		main_class.find(".overflow-container, #play-button").addClass("animate"),
-
 		wow_sect1.find('.headline').addClass("animate"),
-		// wow_sect1.find(".overflow-container").addClass("animate"),	 wow_sect1.find(".acv-line-texture").addClass("animate"),	wow_sect1.find("#play-button").addClass("animate")
 		down_arrow.addClass("animate"),
 		wow_sect1.find(".bottle").addClass("animate"),
 		wow_sect1.find(".headline").addClass('animate'),
@@ -7390,8 +7353,6 @@ $(function () {
 	}
 
 	function v() {
-		// $("#wow").addClass("show"),
-		//  	$(".wow").addClass("animate-up"),
 		wow_sect2.find(".bg").addClass("down"), wow_sect2.find(".content").addClass("up"),
 		wow_sect3.find(".bg").removeClass("down"),
 		wow_sect3.find(".content").removeClass("up"),
@@ -7525,28 +7486,7 @@ $(function () {
 			"up" === t && $.fn.fullpage.moveSectionDown(), "down" === t && $.fn.fullpage.moveSectionUp()
 		}
 	})));
-	// var t = window.location.hash;
-	// $(document).ready(function() {
-	// 	t && ("#acvshampoo" === t && setTimeout(function() {
-	// 		$.fn.fullpage.moveTo(2)
-	// 	}, 1200), "#red-wine" === t && (wow_sect1.hide(), setTimeout(function() {
-	// 		$.fn.fullpage.moveTo(3)
-	// 	}, 1200), setTimeout(function() {
-	// 		wow_sect1.show(), f()
-	// 	}, 1200)), "#rose" === t && (wow_sect1.hide(), wow_sect2.hide(), setTimeout(function() {
-	// 		$.fn.fullpage.moveTo(4)
-	// 	}, 1200), setTimeout(function() {
-	// 		wow_sect1.show(), wow_sect2.show(), f(), m()
-	// 	}, 2e3)), "#sauvignon-blanc" === t && (wow_sect1.hide(), wow_sect2.hide(), wow_sect3.hide(), setTimeout(function() {
-	// 		$.fn.fullpage.moveTo(5)
-	// 	}, 1200), setTimeout(function() {
-	// 		wow_sect1.show(), wow_sect2.show(), wow_sect3.show(), f(), m(), v()
-	// 	}, 2e3)), "#bubbles" === t && (wow_sect1.hide(), wow_sect2.hide(), wow_sect3.hide(), wow_sect4.hide(), setTimeout(function() {
-	// 		$.fn.fullpage.moveTo(6)
-	// 	}, 1200), setTimeout(function() {
-	// 		wow_sect1.show(), wow_sect2.show(), wow_sect3.show(), wow_sect4.show(), f(), m(), v(), g()
-	// 	}, 2e3)))
-	// })
+
 }),
 /* End of wine section*/
 
@@ -7612,30 +7552,9 @@ $(function () {
 		template: '<a target="_blank" href="{{link}}" style="background-image: url({{image}});"></a>'
 	}).run()
 }),
-$(function () {}),
 $(window).scroll(function () {
 	var e = $(this).scrollTop() / $(window).height() * 25;
 	$(".parallax-standard-scroll").css({
 		transform: "translate3d(0, " + e + "%, 0)"
 	})
-}),
-$(function() {
-  if ($(".video-overlay-inner").fitVids(), $('iframe[id="eg-video"]').length) {
-    var e = document.querySelector('iframe[id="eg-video"]'),
-      t = new Vimeo.Player(e);
-    $(".acv-play").click(function() {
-      t.play(), $('.video-overlay[rel="eg-video"]').addClass("open"), $(".acv-arrow").addClass("animate"), setTimeout(function() {
-        $(".acv-arrow").hide()
-      }, 500)
-    }), $(".video-overlay-close").click(function() {
-      t.unload(function() {
-        $.fn.fullpage.reBuild()
-      }), $(".video-overlay").removeClass("open"), $(".acv-arrow").show(), setTimeout(function() {
-        $(".acv-arrow").removeClass("animate")
-      }, 50)
-    }), t.on("timeupdate", function(e) {
-      .99 < e.percent && (t.pause(), t.unload())
-    })
-  }
-
 })
