@@ -1,4 +1,4 @@
-! function (e, t) {
+!function (e, t) {
 	"object" == typeof module && "object" == typeof module.exports ? module.exports = e.document ? t(e, !0) : function (e) {
 		if (!e.document) throw new Error("jQuery requires a window with a document");
 		return t(e)
@@ -7551,7 +7551,7 @@ $(function () {
 /* End of wine section*/
 
 $(function() {
-  FastClick.attach(document.body), $(".acv.full-height, .ethos-statement, .canpaign-intro, .canpaign-score-intro, .canpaign-score-results-item, .canpaign-sweepstakes").waypoint(function(e) {
+  FastClick.attach(document.body), $(".acv.full-height").waypoint(function(e) {
     $(this).find(".overflow-container").addClass("animate"), $(this).find(".acv-line-texture").addClass("animate"), $(this).find("#play-button").addClass("animate"), $(this).prev(".canpaign-score-results-vs").addClass("animate")
   }, {
     offset: "90%",
@@ -7607,7 +7607,7 @@ $(function () {
 		userId: "4355028863",
 		// 7285912755
 		limit: 25,
-		resolution: "low_resolution",
+		resolution: "standard_resolution",
 		accessToken: "4355028863.bd54f22.4e963b512afc4425a23fc08f2a038829",
 		template: '<a target="_blank" href="{{link}}" style="background-image: url({{image}});"></a>'
 	}).run()

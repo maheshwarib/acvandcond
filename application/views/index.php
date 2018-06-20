@@ -236,7 +236,7 @@
 								<p>Apple Cider Vinegar Shampoo
 									<br>+
 									<br>Hair Conditioner</p>
-								<p class="price">$49</p>
+							<p class="price">$49</p>
 							<a href="#"  class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
@@ -359,6 +359,7 @@
 		    items:3,
 				margin:0,
 				center: true,
+				singleItem: true,
 				responsiveClass:true,
 				responsive:{
 				    0:{
