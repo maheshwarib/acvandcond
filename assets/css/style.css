@@ -1538,22 +1538,22 @@ span.ajax-loader {
 	padding: 0
 }
 @media only screen and (max-width: 1023px) {
-	.footer-social-icons {
+	/* .footer-social-icons {
 		display: none
-	}
+	} */
 }
 .footer-social-icons li {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	padding-top: calc(100% + 3px);
-	position: relative
+	position: relative;
 }
 .footer-social-icons li:first-child {
 	margin-bottom: 6px
 }
 .footer-social-icons a {
-	display: block;
+	display: inline-block;
 	width: 100%;
 	height: 100%;
 	transition: background-color .2s;
