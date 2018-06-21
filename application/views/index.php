@@ -217,7 +217,7 @@
 							</div>
 							<div class="overflow-container block">
 								<p>Apple Cider Vinegar<br>Shampoo</p>
-								<p class="price">$29</p>
+								<p class="price">Rs. 399.00</p>
 								<a href="#" class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
@@ -233,7 +233,7 @@
 								<p>Apple Cider Vinegar Shampoo
 									<br>+
 									<br>Hair Conditioner</p>
-							<p class="price">$49</p>
+							<p class="price">Rs. 794.00</p>
 							<a href="#"  class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
@@ -250,7 +250,7 @@
 									<br>
 									<br>
 								</p>
-								<p class="price">$29</p>
+								<p class="price">Rs. 395.00</p>
 									<a href="#"  class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
@@ -259,12 +259,24 @@
 				<div class="acv-arrow-small hide"></div>
 			</div>
 			<div class="section">
-				<div class="instafeed">
+				<!-- <div class="instafeed">
 					<div class="overflow-container">
 						<h1 class="heading">see WHAT all the <br> fuzz is about! </h1>
 					</div>
 					<div class="footer-social-feed" id="instafeed"></div>
+				</div> -->
+
+				<div class="youtube-thumbnail">
+					<div class="overflow-container">
+						<h1 class="heading">See What all the fuzz is about! </h1>
+					</div>
+					<div class="demo-page-container">
+				<span class="youtube-link" youtubeid="feCHg6c0_TU">Video 1</span>
+				<a href="#" class="youtube-link" youtubeid="vJWCr-6p_qY">Video 2</a>
+				<a href="#" class="youtube-link" youtubeid="5d9FFm4GORc">Video 3</a>
+			</div>
 				</div>
+
 			</div>
 			<div class="section">
 				<footer class="footer">
@@ -361,6 +373,19 @@
 				})
 		})
 	</script>
+	<script>
+			// Demo video 1
+			$(".youtube-link").grtyoutube({
+				autoPlay:true,
+				theme: "dark"
+			});
+
+			// Demo video 2
+			$(".youtube-link-dark").grtyoutube({
+				autoPlay:true,
+				theme: "light"
+			});
+		</script>
 </body>
 
 </html>
