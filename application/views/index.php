@@ -268,12 +268,14 @@
 
 				<div class="youtube-thumbnail">
 					<div class="overflow-container">
-						<h1 class="heading">See What all the fuzz is about! </h1>
+						<h1 class="heading">See what all the fuzz is about! </h1>
 					</div>
 					<div class="demo-page-container">
 				<span class="youtube-link" youtubeid="feCHg6c0_TU">Video 1</span>
-				<a href="#" class="youtube-link" youtubeid="vJWCr-6p_qY">Video 2</a>
-				<a href="#" class="youtube-link" youtubeid="5d9FFm4GORc">Video 3</a>
+				<span class="youtube-link" youtubeid="vJWCr-6p_qY">Video 2</span>
+				<span class="youtube-link" youtubeid="5d9FFm4GORc">Video 3</span>
+
+
 			</div>
 				</div>
 
