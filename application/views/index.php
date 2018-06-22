@@ -273,12 +273,17 @@
 					<div class="demo-page-container">
 								<span class="youtube-link" youtubeid="feCHg6c0_TU">
 									<img src="assets/img/thumb1.png" alt="">
+									<p>Apple Cider Vinegar</p>
 								</span>
 								<span class="youtube-link" youtubeid="vJWCr-6p_qY">
 										<img src="assets/img/thumb2.png" alt="">
+										<p>Apple Cider Vinegar</p>
+
 								</span>
 								<span class="youtube-link" youtubeid="5d9FFm4GORc">
 									<img src="assets/img/thumb3.png" alt="">
+									<p>Apple Cider Vinegar</p>
+								
 								</span>
 				</div>
 				</div>
