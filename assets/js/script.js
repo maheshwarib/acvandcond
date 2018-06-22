@@ -7596,6 +7596,7 @@ $(window).scroll(function () {
 				event.preventDefault();
 				$(".grtyoutube-popup-close, .grtyoutube-popup").click(function(){
 					$(".grtyoutube-popup").remove();
+					
 				});
 			});
 

@@ -271,9 +271,15 @@
 						<h1 class="heading">See what all the fuzz is about! </h1>
 					</div>
 					<div class="demo-page-container">
-								<span class="youtube-link" youtubeid="feCHg6c0_TU">WOW Apple Cider Vinager</span>
-								<span class="youtube-link" youtubeid="vJWCr-6p_qY">WOW hair Conditioner</span>
-								<span class="youtube-link" youtubeid="5d9FFm4GORc">10 Benefits of the shampoo</span>
+								<span class="youtube-link" youtubeid="feCHg6c0_TU">
+									<img src="assets/img/thumb1.png" alt="">
+								</span>
+								<span class="youtube-link" youtubeid="vJWCr-6p_qY">
+										<img src="assets/img/thumb2.png" alt="">
+								</span>
+								<span class="youtube-link" youtubeid="5d9FFm4GORc">
+									<img src="assets/img/thumb3.png" alt="">
+								</span>
 				</div>
 				</div>
 
