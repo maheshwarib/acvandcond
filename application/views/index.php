@@ -271,19 +271,22 @@
 						<h1 class="heading">See what all the fuzz is about! </h1>
 					</div>
 					<div class="demo-page-container">
-								<span class="youtube-link" youtubeid="feCHg6c0_TU">
-									<img src="assets/img/thumb1.png" alt="">
+								<span class="youtube-link" youtubeid="bugowmlzt8U">
+									<img class="thumb_img desktop" src="assets/img/thumb1.jpg" alt="" width="100%">
+									<img class="thumb_img mobile" src="assets/img/thumb-mobile1.jpg" alt="" width="100%">
 									<p>Apple Cider Vinegar</p>
 								</span>
-								<span class="youtube-link" youtubeid="vJWCr-6p_qY">
-										<img src="assets/img/thumb2.png" alt="">
+								<span class="youtube-link" youtubeid="8XDuVggWjcc">
+										<img class="thumb_img desktop" src="assets/img/thumb2.jpg" alt="" width="100%">
+										<img class="thumb_img mobile" src="assets/img/thumb-mobile2.jpg" alt="" width="100%">
 										<p>Apple Cider Vinegar</p>
 
 								</span>
-								<span class="youtube-link" youtubeid="5d9FFm4GORc">
-									<img src="assets/img/thumb3.png" alt="">
+								<span class="youtube-link" youtubeid="wSgpjRUg_nk">
+									<img class="thumb_img desktop" src="assets/img/thumb3.jpg" alt="" width="100%">
+									<img class="thumb_img mobile" src="assets/img/thumb-mobile3.jpg" alt="" width="100%">
 									<p>Apple Cider Vinegar</p>
-								
+
 								</span>
 				</div>
 				</div>
