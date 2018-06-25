@@ -111,7 +111,7 @@
 							<div class="overflow-inner delay2">
 								<h3 class="title">blended with</h3>
 								<p class="subtitle">Sweet Almond Oil
-									<br>Argan Oil</p> <br><a href="#"  class="button secondary">READ MORE</a>
+									<br>Argan Oil</p> <br><a target="_blank" href="https://in.buywow.com/products/wow-organics-apple-cider-vinegar-shampoo"  class="button secondary">READ MORE</a>
 							</div>
 						</div>
 					</div>
@@ -148,7 +148,7 @@
 								<h3 class="title">blended with </h3>
 								<p class="subtitle">Cold Pressed
 									<br>Avocado Oil
-									<br>Vitamins B5 &amp; E</p> <br><a href="#"  class="button secondary">READ MORE</a>
+									<br>Vitamins B5 &amp; E</p> <br><a target="_blank" href="https://in.buywow.com/collections/hair-care/products/wow-skin-science-hair-conditioner-300ml-no-sulphates-no-parabens-infused-with-organic-virgin-coconut-oil-avocado-oil-wheat-protein?variant=32318143373"  class="button secondary">READ MORE</a>
 							</div>
 						</div>
 					</div>
@@ -162,16 +162,7 @@
 						<div class="bottle  right "></div>
 					</div>
 					<div class="content left up down-s">
-						<!-- <div class="overflow-container content-breaker">
-							<div class="overflow-inner delay1 ">
-								<h3 class="title">Having a hair crisis every other day?</h3>
-								<h4 class="title2">Well, you’ve come to the right place!</h4>
-								<br>
-								<p class="subtitle">Here at WOW Skin Science, we dedicate all our waking hours to researching and formulating new brilliant ways to help you with all your hair woes! Trust us when we say this; what we have is a “Winner”!</p>
-							</div>
-							<br>
-							<br>
-						</div> -->
+	
 						<div class="overflow-container">
 							<div class="overflow-inner delay1">
 								<h3 class="title">Wondering what is vinegar doing in a shampoo?</h3>
@@ -187,7 +178,7 @@
 								<h3 class="title">Where does the conditioner come in?</h3>
 								<br>
 								<p class="subtitle">If you’re not too lazy to go the extra mile to preserve and cherish your hair, why don’t you try WOW Skin Science Hair Conditioner after the shampoo, and make this dynamic duo into a routine?</p>
-                <a href="#"  class="button secondary">Read More</a>
+                <a target="_blank" href="https://in.buywow.com/products/wow-organics-apple-cider-vinegar-shampoo?variant=45023206797"  class="button secondary">Read More</a>
 							</div>
 							<br>
 						</div>
@@ -218,7 +209,7 @@
 							<div class="overflow-container block">
 								<p>Apple Cider Vinegar<br>Shampoo</p>
 								<p class="price">Rs. 399.00</p>
-								<a href="#" class="button secondary">SHOP NOW&nbsp;</a>
+								<a target="_blank" href="https://in.buywow.com/products/wow-organics-apple-cider-vinegar-shampoo?variant=29089416077" class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
 						<div class="item">
@@ -234,7 +225,7 @@
 									<br>+
 									<br>Hair Conditioner</p>
 							<p class="price">Rs. 794.00</p>
-							<a href="#"  class="button secondary">SHOP NOW&nbsp;</a>
+							<a target="_blank" href="https://in.buywow.com/products/wow-organics-apple-cider-vinegar-shampoo?variant=45023206797"  class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
 						<div class="item">
@@ -251,7 +242,7 @@
 									<br>
 								</p>
 								<p class="price">Rs. 395.00</p>
-									<a href="#"  class="button secondary">SHOP NOW&nbsp;</a>
+									<a target="_blank" href="https://in.buywow.com/collections/hair-care/products/wow-skin-science-hair-conditioner-300ml-no-sulphates-no-parabens-infused-with-organic-virgin-coconut-oil-avocado-oil-wheat-protein?variant=32318143373"  class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
 					</div>
@@ -259,14 +250,7 @@
 				<div class="acv-arrow-small hide"></div>
 			</div>
 			<div class="section">
-				<!-- <div class="instafeed">
-					<div class="overflow-container">
-						<h1 class="heading">see WHAT all the <br> fuzz is about! </h1>
-					</div>
-					<div class="footer-social-feed" id="instafeed"></div>
-				</div> -->
-
-				<div class="youtube-thumbnail">
+					<div class="youtube-thumbnail">
 					<div class="overflow-container">
 						<h1 class="heading">See what all the fuzz is about! </h1>
 					</div>
@@ -348,10 +332,11 @@
 										</a>
 									</li>
 								</ul>
+									<div class="footer-social-feed" id="instafeed"></div>
 						</div>
 						</div>
 					</div>
-					<div class="footer-copyright"> <span class="footer-copyright-item">&copy;2013-2018 Created by &amp; All Rights Reserved <br> Fit and Glow Healthcare Pvt Ltd.</span>
+					<div class="footer-copyright"> <span class="footer-copyright-item">&copy;2013-2018 Created by &amp; All Rights Reserved <span class="next-line"> Fit and Glow Healthcare Pvt Ltd.</span></span>
 
 					</div>
 				</footer>
@@ -359,7 +344,7 @@
 		</div>
 	</div>
 
-	<script src="assets/js/script.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
 	<script type="text/javascript" src="assets/vendors/assets/owl.carousel.min.js">
 	</script>
 	<script type="text/javascript">
@@ -387,7 +372,7 @@
 				})
 		})
 	</script>
-	<script>
+	<script type="text/javascript">
 			// Demo video 1
 			$(".youtube-link").grtyoutube({
 				autoPlay:true,
