@@ -7388,7 +7388,7 @@ $(function () {
 			"down" === i && (0 === n && f(), 1 === n && m(), 2 === n && v(),
 													3 === n && ($("#wow").addClass("show"),
 														 				$(".wow").addClass("animate-up"),
-														 				wow_sect3.find(".bottle").removeClass("animate"),
+														 				// wow_sect3.find(".bottle").removeClass("animate"),
 																		wow_sect3.find(".overflow-container").removeClass("animate"),
 																		wow_sect3.find(".content").removeClass("animate"),
 																		wow_sect3.find(".content").addClass("last-down"),
@@ -7416,8 +7416,8 @@ $(function () {
 																				"z-index": "1"
 																			})),
 												 0 === n && (
- 												 $(".acv-video").get(0).play(), $(".acv-video").get(1).play(),
-														wow_sect1.find(".bg").removeClass("up"),
+
+													wow_sect1.find(".bg").removeClass("up"),
 												 wow_sect1.find(".content").removeClass("down"),
 												  wow_sect2.find(".bg").addClass("up"),
 													wow_sect2.find(".content").addClass("down"),
@@ -7455,7 +7455,7 @@ $(function () {
 												2 === n && (
 													$(".wow").removeClass("animate-up"),
 														wow_sect3.find(".bg").addClass("animate"),
-												  wow_sect3.find(".bottle").addClass("animate"),
+												  // wow_sect3.find(".bottle").addClass("animate"),
 												  wow_sect3.find(".overflow-container").addClass("animate"),
 												  wow_sect3.find(".content").addClass("animate"),
 													 wow_sect3.find(".content").removeClass("last-down"),
