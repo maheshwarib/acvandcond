@@ -7309,7 +7309,6 @@ $(function () {
 		wow_sect1 = $(".wow-section").eq(0),
 		wow_sect2 = $(".wow-section").eq(1),
 		wow_sect3 = $(".wow-section").eq(2),
-		wow_sect4 = $(".wow-section").eq(3),
 		r = $(".home-acv-main"),
 		d = $(".combos"),
 		down_arrow = $(".acv-arrow"),
@@ -7322,6 +7321,7 @@ $(function () {
 		wow_sect1.find(".content").removeClass("down down-s"),
 		main_class.addClass("animate"),
 		main_class.find(".overflow-container, #play-button").addClass("animate"),
+		$(".acv-video").get(0).pause(), $(".acv-video").get(1).pause(),
 		wow_sect1.find('.headline').addClass("animate"),
 		down_arrow.addClass("animate"),
 		wow_sect1.find(".bottle").addClass("animate"),
@@ -7353,7 +7353,8 @@ $(function () {
 	}
 
 	function v() {
-		wow_sect2.find(".bg").addClass("down"), wow_sect2.find(".content").addClass("up"),
+		wow_sect2.find(".bg").addClass("down"),
+		wow_sect2.find(".content").addClass("up"),
 		wow_sect3.find(".bg").removeClass("down"),
 		wow_sect3.find(".content").removeClass("up"),
 		wow_sect2.find(".content").addClass("up-s"),
@@ -7374,7 +7375,7 @@ $(function () {
 		"z-index": "4"
 	});
 	var e = {
-		scrollingSpeed: 1200,
+		scrollingSpeed: 1100,
 		onLeave: function (e, t, i) {
 			/* e=index, t=nextIndex, i=direction */
 			$(this), $(this).height();
@@ -7386,16 +7387,21 @@ $(function () {
 			}),
 			"down" === i && (0 === n && f(), 1 === n && m(), 2 === n && v(),
 													3 === n && ($("#wow").addClass("show"),
-														 				$(".wow").addClass("animate-up-easing"),
-														 				wow_sect4.find(".bottle").removeClass("animate"),
-																		wow_sect4.find(".overflow-container").removeClass("animate"),
-																		wow_sect4.find(".content").removeClass("animate"),
-																		wow_sect4.find(".content").addClass("down"),
+														 				$(".wow").addClass("animate-up"),
+														 				wow_sect3.find(".bottle").removeClass("animate"),
+																		wow_sect3.find(".overflow-container").removeClass("animate"),
+																		wow_sect3.find(".content").removeClass("animate"),
+																		wow_sect3.find(".content").addClass("last-down"),
+																		wow_sect3.find(".bg").addClass("last-down"),
 																		d.find(".item").addClass("animate-in"),
 																		d.find(h).addClass("animate")),
-													4 === n && (d.find(".item").addClass("animate-out"),
+													4 === n && (
+														wow_sect3.find(".overflow-container").removeClass("animate"),
+														d.find(".item").addClass("animate-out"),
 													 						d.find(h).removeClass("animate"))),
-				"up" === i && (-1 === n && (wow_sect1.find(".bg").addClass("down down-s"),
+				"up" === i && (-1 === n && (
+
+					wow_sect1.find(".bg").addClass("down down-s"),
 											 wow_sect1.find(".content").addClass("down down-s"),
 											  // $(".wow").removeClass("animate"),
 												$(".wow").removeClass("animate"),
@@ -7409,7 +7415,9 @@ $(function () {
 												p.removeClass("animate"), wow_sect1.css({
 																				"z-index": "1"
 																			})),
-												 0 === n && (wow_sect1.find(".bg").removeClass("up"),
+												 0 === n && (
+ 												 $(".acv-video").get(0).play(), $(".acv-video").get(1).play(),
+														wow_sect1.find(".bg").removeClass("up"),
 												 wow_sect1.find(".content").removeClass("down"),
 												  wow_sect2.find(".bg").addClass("up"),
 													wow_sect2.find(".content").addClass("down"),
@@ -7446,12 +7454,11 @@ $(function () {
 												}), wow.removeClass("animate-up-easing")),
 												2 === n && (
 													$(".wow").removeClass("animate-up"),
-
-													wow_sect4.find(".bottle").addClass("animate"),
-													wow_sect4.find(".overflow-container").addClass("animate"),
-													wow_sect4.find(".content").addClass("animate"),
-													wow_sect4.find(".content").removeClass("last-down"),
-													d.find(".item").removeClass("animate-in"),
+														wow_sect3.find(".bg").addClass("animate"),
+												  wow_sect3.find(".bottle").addClass("animate"),
+												  wow_sect3.find(".overflow-container").addClass("animate"),
+												  wow_sect3.find(".content").addClass("animate"),
+													 wow_sect3.find(".content").removeClass("last-down"),
 													d.find(h).removeClass("animate"),setTimeout(function() {
 															$("#wow").removeClass("show")
 															}, 999)),
@@ -7470,7 +7477,8 @@ $(function () {
 			wow.height(e)
 		},
 		afterLoad: function (e, t) {
-
+			// $(".acv-video").get(0).play(), $(".acv-video").get(1).play(),\
+			  1 == t ? ($(".acv-video").get(0).play(), $(".acv-video").get(1).play()):($(".acv-video").get(0).pause(), $(".acv-video").get(1).pause()),
 			$(this).find(".acv-arrow-small").removeClass("hide"),
 			$(".wow-section:eq(" + (t - 2) + ")").find(".acv-arrow-small").removeClass("hide")
 
@@ -7547,7 +7555,7 @@ $(function () {
 		tagName: 'BestShampoo',
 		userId: "4355028863",
 		// 7285912755
-		limit: 25,
+		limit: 6,
 		resolution: "standard_resolution",
 		accessToken: "4355028863.bd54f22.4e963b512afc4425a23fc08f2a038829",
 		template: '<a target="_blank" href="{{link}}" style="background-image: url({{image}});"></a>'
