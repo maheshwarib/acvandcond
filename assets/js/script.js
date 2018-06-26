@@ -7549,18 +7549,6 @@ $(function() {
     }, 1500)
   }, 3e3); - 1 === navigator.userAgent.indexOf("FBAV") && -1 === navigator.userAgent.indexOf("Instagram") || ($(".contact-popup").addClass("in-app"), $(".acv.full-height .acv-arrow").addClass("acv-arrow-small main").removeClass("acv-arrow"), $(".landscape-popup").addClass("in-app"))
 }),
-$(function () {
-	new Instafeed({
-		get: "user",
-		tagName: 'BestShampoo',
-		userId: "4355028863",
-		// 7285912755
-		limit: 6,
-		resolution: "standard_resolution",
-		accessToken: "4355028863.bd54f22.4e963b512afc4425a23fc08f2a038829",
-		template: '<a target="_blank" href="{{link}}" style="background-image: url({{image}});"></a>'
-	}).run()
-}),
 $(window).scroll(function () {
 	var e = $(this).scrollTop() / $(window).height() * 25;
 	$(".parallax-standard-scroll").css({
