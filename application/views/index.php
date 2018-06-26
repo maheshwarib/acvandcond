@@ -300,12 +300,13 @@
 						<div class="footer-section footer-follow">
 							<div class="footer-newsletter">
 								<h2 class="footer-title">REACH OUT TO US</h2>
-								<br>
+
 								<p class="text">We line up only the purest and superior-quality wellness and personal care products backed by science and studies. Our products contain natural bioactive ingredients without any artificial additives or harmful chemicals. From dietary health supplements, hair care & skin care products to bath & body products, we believe our customers deserve only the best.</p>
-								<br>
+<br>
+							</div>
+
 								<p class="text"> <a href="http://www.fitandglow.in/">Fit And Glow Healthcare Pvt Ltd</a> </p>
  								<p class="text"> <a href="mailto:support@buywow.com">support@buywow.com</a>
-							</div>
 
 						</div>
 					</div>
