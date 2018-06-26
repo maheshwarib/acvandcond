@@ -1610,6 +1610,7 @@ span.ajax-loader {
 .footer-copyright {
 	background-color: #111;
 	text-align: center;
+	vertical-align: middle;
 	height: 50px;
 	font: 400 normal 12px/1.2 Open Sans, Helvetica, Arial, sans-serif;
 	color: #fff;
@@ -2173,8 +2174,7 @@ span.ajax-loader {
 		justify-content: flex-end;
 		padding: 0 60px 40px
 	}
-	/* .rose >.wow-acv-cond >.content  */
-	[class~='content']:last-of-type{
+	 .rose > .content{
 		width: 100%;
 		position: relative;
 		-ms-flex-pack: center;
@@ -2233,7 +2233,7 @@ span.ajax-loader {
 	.wow-acv-cond .content >div {
 		width: 250px
 	}
-.rose>	.wow-acv-cond .content >div {
+.rose>.content >div {
 		width: 100%;
 	}
 }
@@ -2241,6 +2241,9 @@ span.ajax-loader {
 	.wow-acv-cond .content >div {
 		width: 200px
 	}
+	.rose>.content >div {
+			width: 100%;
+		}
 }
 .wow-acv-cond .content:after,
 .wow-acv-cond .content:before {
@@ -2301,7 +2304,7 @@ span.ajax-loader {
 		width: 25%;
 		z-index: 5
 	}
-	.rose > .wow-acv-cond .bg{
+	.rose> .bg{
 		background: none !important;
 		width: 0% !important;
 		z-index: 0
@@ -2603,6 +2606,7 @@ span.ajax-loader {
 }
 .combos {
 	width: 100%;
+	height:100vh;
 	background: #fff url(../img/section4_bg.jpg) calc(100%) 0%/calc(100%) no-repeat;
 	text-align: left;
 	display: block;
@@ -2646,12 +2650,15 @@ span.ajax-loader {
 	transition-timing-function: ease-in-out
 }
 .item {
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	width: 100%;
-	height: 100%;
-	text-align: center;
+	-ms-flex-flow: column nowrap;
+	flex-flow: column nowrap;
+	-ms-flex-pack: center;
+	justify-content: center;
 	align-items: center;
+	text-align: center;
+
 }
 .item.animate-in {
 	transform: translateY(0);
@@ -2673,8 +2680,7 @@ span.ajax-loader {
 	width: 100%;
 }
 .item img.combo1 {
-	/* height:473px;
-    width:295px; */
+
 	height: 100%;
 	width: 100%;
 	padding: 0;
@@ -2737,9 +2743,6 @@ span.ajax-loader {
 	font: 800 normal 35px/1 Open Sans, Helvetica, Arial, sans-serif;
 }
 @media only screen and (max-width: 1200px) {
-	.item {
-		height: 100%;
-	}
 	.item img.combo1 {
 		max-width: 100%;
 		max-height: 100%;
@@ -2754,9 +2757,6 @@ span.ajax-loader {
 	}
 }
 @media only screen and (max-height: 730px) and (min-width: 1024px) {
-	.item {
-		height: 100%;
-	}
 	.item img.combo1 {
 		max-width: 100%;
 		max-height: 100%;
@@ -2786,9 +2786,6 @@ span.ajax-loader {
 	.combos .price {
 		font: 800 normal 30px/1"Open Sans", Helvetica, Arial, sans-serif;
 	}
-	.item {
-		height: 100%;
-	}
 	.item img.combo1,
 	.item img.combo2 {
 		max-width: 100%;
@@ -2803,9 +2800,6 @@ span.ajax-loader {
 @media only screen and (max-width: 380px) {
 	.combos .price {
 		font: 800 normal 25px/1"Open Sans", Helvetica, Arial, sans-serif;
-	}
-	.item {
-		height: 100%;
 	}
 	.item img {
 		height: 100%;
@@ -2940,7 +2934,7 @@ span.ajax-loader {
 @media only screen and (max-width: 380px) {
 	.youtube-thumbnail .heading {
 		font-size: 1em;
-		top: 3%;
+		top: 0%;
 		width: 100%;
 	}
 }

@@ -162,7 +162,7 @@
 						<div class="bottle  right "></div>
 					</div>
 					<div class="content left up down-s">
-	
+
 						<div class="overflow-container">
 							<div class="overflow-inner delay1">
 								<h3 class="title">Wondering what is vinegar doing in a shampoo?</h3>
@@ -214,7 +214,8 @@
 						</div>
 						<div class="item">
 							<img class="owl-lazy combo2" data-src="assets/img/combo.png" alt="acv+conditioner" />
-							<div class="rating"> <span class="star-icon full">☆</span>
+							<div class="rating">
+								<span class="star-icon full">☆</span>
 								<span class="star-icon full">☆</span>
 								<span class="star-icon full">☆</span>
 								<span class="star-icon full">☆</span>
