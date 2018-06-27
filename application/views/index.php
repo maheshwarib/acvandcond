@@ -259,18 +259,18 @@
 								<span class="youtube-link" youtubeid="bugowmlzt8U">
 									<img class="thumb_img desktop" src="assets/img/thumb1.jpg" alt="" width="100%">
 									<img class="thumb_img mobile" src="assets/img/thumb-mobile1.jpg" alt="" width="100%">
-									<p>Apple Cider Vinegar</p>
+									<p>Customer Review</p>
 								</span>
 								<span class="youtube-link" youtubeid="8XDuVggWjcc">
 										<img class="thumb_img desktop" src="assets/img/thumb2.jpg" alt="" width="100%">
 										<img class="thumb_img mobile" src="assets/img/thumb-mobile2.jpg" alt="" width="100%">
-										<p>Apple Cider Vinegar</p>
+										<p>Customer Review</p>
 
 								</span>
 								<span class="youtube-link" youtubeid="wSgpjRUg_nk">
 									<img class="thumb_img desktop" src="assets/img/thumb3.jpg" alt="" width="100%">
 									<img class="thumb_img mobile" src="assets/img/thumb-mobile3.jpg" alt="" width="100%">
-									<p>Apple Cider Vinegar</p>
+									<p>Customer Review</p>
 
 								</span>
 				</div>
@@ -332,7 +332,7 @@
 				        items:1,
 
 				        },
-				    600:{
+				    768:{
 				        items:3,
 
 
