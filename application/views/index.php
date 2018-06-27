@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" class="css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 	<link rel="stylesheet" href="assets/vendors/assets/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/vendors/assets/owl.theme.default.min.css">
@@ -14,6 +15,8 @@
 	<meta name="application-name" content="WOW Skin science" />
 	<meta name="apple-mobile-web-app-title" content="WOW Skin science">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="shortcut icon" href="<?php echo base_url()?>favicon.ico" type="image/x-icon">
+<link rel="icon" href="<?php echo base_url()?>favicon.ico" type="image/x-icon">
 	<title>Apple cider vineger Shampoo</title>
 </head>
 
@@ -199,8 +202,7 @@
 
 			<div class="section">
 				<div class="wow-acv-cond combos">
-					<!-- <div class="overflow-container part1"> <span class="combo-heading1"> Well, what are you waiting for?!</span>
-						<br> <span class="combo-heading2"> Go ahead and grab yours!</span>					</div> -->
+
 					<div class="owl-theme owl-carousel">
 						<div class="item">
 							<img class="owl-lazy combo1" data-src="assets/img/combo1.png" alt="ACV" />
@@ -209,7 +211,7 @@
 							<div class="overflow-container block">
 								<p>Apple Cider Vinegar<br>Shampoo</p>
 								<p class="price">Rs. 399.00</p>
-								<a target="_blank" href="https://in.buywow.com/products/wow-organics-apple-cider-vinegar-shampoo?variant=29089416077" class="button secondary">SHOP NOW&nbsp;</a>
+								<a target="_blank" href="http://in.buywow.com/cart/29089416077:1?ref=mainhomepage" class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
 						<div class="item">
@@ -226,7 +228,7 @@
 									<br>+
 									<br>Hair Conditioner</p>
 							<p class="price">Rs. 794.00</p>
-							<a target="_blank" href="https://in.buywow.com/products/wow-organics-apple-cider-vinegar-shampoo?variant=45023206797"  class="button secondary">SHOP NOW&nbsp;</a>
+							<a target="_blank" href="http://in.buywow.com/cart/45023206797:1?ref=mainhomepage"  class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
 						<div class="item">
@@ -243,7 +245,7 @@
 									<br>
 								</p>
 								<p class="price">Rs. 395.00</p>
-									<a target="_blank" href="https://in.buywow.com/collections/hair-care/products/wow-skin-science-hair-conditioner-300ml-no-sulphates-no-parabens-infused-with-organic-virgin-coconut-oil-avocado-oil-wheat-protein?variant=32318143373"  class="button secondary">SHOP NOW&nbsp;</a>
+									<a target="_blank" href="http://in.buywow.com/cart/32318143373:1?ref=mainhomepage"  class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
 					</div>
@@ -283,17 +285,15 @@
 						<div class="footer-section footer-trade">
 							<h2 class="footer-title">Product Line Up</h2>
 							<p class="text">Curious about our other products?
-								<br> <a href="../trade-media/index.html">Visit our website & prepare to be amazed!</a>
+								<br> Visit our website & prepare to be amazed!
 								<br> <a href="https://in.buywow.com/">https://in.buywow.com/</a>
 							</p>
 						</div>
 						<div class="footer-section footer-contact">
 							<h2 class="footer-title">Contact Us</h2>
-							<p class="text">	Phone: +91-80-42896000 <br>
-									Working Hour: (10AM - 7PM IST Monday to Saturday)</p>
+							<p class="text">	<i class="fa fa-phone"></i> +91-80-42896000 <br>
+								<i class="fa fa-clock-o"></i> 10AM - 7PM IST Monday to Saturday</p>
 
-
-							</p>
 						</div>
 					</div>
 					<div class="footer-item right">
@@ -303,10 +303,11 @@
 
 								<p class="text">We line up only the purest and superior-quality wellness and personal care products backed by science and studies. Our products contain natural bioactive ingredients without any artificial additives or harmful chemicals. From dietary health supplements, hair care & skin care products to bath & body products, we believe our customers deserve only the best.</p>
 <br>
+<p class="text"> <i class="fa fa-lg fa-location-arrow"></i> <a href="http://www.fitandglow.in/">Fit And Glow Healthcare Pvt Ltd</a> </p>
+<p class="text"> <i class="fa fa-envelope-o"></i> <a href="mailto:support@buywow.com">support@buywow.com</a>
 							</div>
 
-								<p class="text"> <a href="http://www.fitandglow.in/">Fit And Glow Healthcare Pvt Ltd</a> </p>
- 								<p class="text"> <a href="mailto:support@buywow.com">support@buywow.com</a>
+
 
 						</div>
 					</div>
