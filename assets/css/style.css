@@ -2658,6 +2658,8 @@ span.ajax-loader {
 	align-items: center;
 	text-align: center;
 	overflow: hidden;
+	-webkit-align-self: center; /* Safari 7.0+ */
+	 align-self: center;
 	}
 .item.animate-in {
 	transform: translateY(0);
@@ -2941,11 +2943,14 @@ span.ajax-loader {
 	}
 }
 .youtube-thumbnail .demo-page-container {
+	height:100vh;
 	text-align: center;
-	position: absolute;
-	width: 100%;
-	left: 50%;
-	transform: translate(-50%, 50%);
+	display: flex;
+justify-content: center;
+-ms-flex-pack: center;
+align-items: center;
+	-webkit-align-self: center; /* Safari 7.0+ */
+	 align-self: center;
 }
 .demo-page-container .youtube-link,
 .demo-page-container .youtube-link-dark {
@@ -2986,16 +2991,7 @@ span.ajax-loader {
 		width: 30%;
 		margin-right: 2%;
 	}
-	.youtube-thumbnail .demo-page-container {
-		text-align: center;
-		position: absolute;
-		display: block;
-		width: 100%;
-		top: 45%;
-		left: 0%;
-		bottom: 0;
-		transform: translate(0%, -20%);
-	}
+
 }
 @media (max-width: 1024px and min-height: 768px) {
 	.demo-page-container .youtube-link,
@@ -3007,14 +3003,7 @@ span.ajax-loader {
 		width: 30%;
 		margin-right: 2%;
 	}
-	.youtube-thumbnail .demo-page-container {
-		text-align: center;
-		position: absolute;
-		display: block;
-		width: 100%;
-		top: 35%;
-		left: 0%;
-	}
+
 }
 @media (max-width: 768px and min-height: 1024px) {
 	.demo-page-container .youtube-link,
