@@ -7328,6 +7328,7 @@ $(function () {
 		wow_sect1.find(".headline").addClass('animate'),
 		wow_sect1.find(".overflow-container").addClass("animate"),
 		wow_sect1.find(".content").addClass("animate"),
+
 		wow_sect1.css({
 			"z-index": "1"
 		}), $(".home-acv-main").find(h).removeClass("animate"), p.addClass("animate")
@@ -7409,15 +7410,15 @@ $(function () {
 												wow_sect1.find(".bottle").removeClass("animate"),
 												wow_sect1.find(".content").removeClass("animate"),
 												wow_sect1.find(".overflow-container").removeClass("animate"),
-													$(".acv-arrow-small").addClass("hide"),
 												down_arrow.removeClass("animate"),
 												 $(".home-acv-main").find(h).addClass("animate"),
-												p.removeClass("animate"), wow_sect1.css({
+												p.removeClass("animate"),$(".acv-arrow-small").css({
+													"display":"none"
+												}), wow_sect1.css({
 																				"z-index": "1"
 																			})),
 												 0 === n && (
-
-													wow_sect1.find(".bg").removeClass("up"),
+													 	wow_sect1.find(".bg").removeClass("up"),
 												 wow_sect1.find(".content").removeClass("down"),
 												  wow_sect2.find(".bg").addClass("up"),
 													wow_sect2.find(".content").addClass("down"),
@@ -7431,6 +7432,9 @@ $(function () {
 													wow_sect2.find(".overflow-container").removeClass("animate"),
 													wow_sect1.find(".content").addClass("animate"),
 													wow_sect2.find(".content").removeClass("animate"),
+													$(".acv-arrow-small").css({
+														"display":"block"
+													}),
 													wow_sect1.css({
 													"z-index": "1"
 												})),
@@ -7478,8 +7482,8 @@ $(function () {
 		},
 		afterLoad: function (e, t) {
 			// $(".acv-video").get(0).play(), $(".acv-video").get(1).play(),\
-			  1 == t ? ($(".acv-video").get(0).play(), $(".acv-video").get(1).play()):($(".acv-video").get(0).pause(), $(".acv-video").get(1).pause()),
-			$(this).find(".acv-arrow-small").removeClass("hide"),
+			  1 == t ? ($(".acv-video").get(0).play(), $(".acv-video").get(1).play(),$(".acv-arrow-small").addClass("hide")):($(".acv-video").get(0).pause(), $(".acv-video").get(1).pause()),
+			// $(this).find(".acv-arrow-small").removeClass("hide"),
 			$(".wow-section:eq(" + (t - 2) + ")").find(".acv-arrow-small").removeClass("hide")
 
 		}
