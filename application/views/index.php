@@ -83,7 +83,7 @@
       </h1>
 
 			<video src="assets/video/acvshampoo" class="acv-video desktop" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/acv-poster.jpg"></video>
-    	<video src="assets/video/acvshampoo-mobile" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/acv-mobile-poster.jpg"></video>
+    	<video src="assets/video/acvshampoo-mobile" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/sizzle-mobile-poster.jpg"></video>
 <div class="acv-arrow-small hide"></div>
 		</div>
 
@@ -341,8 +341,6 @@
 				        },
 				    768:{
 				        items:3,
-
-
 				    },
 				    1000:{
 				        items:3,
