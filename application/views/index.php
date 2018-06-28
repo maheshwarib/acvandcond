@@ -3,6 +3,8 @@
 
 <head>
 	<meta charset="UTF-8" />
+	<meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" class="css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
@@ -10,14 +12,14 @@
 	<link rel="stylesheet" href="assets/vendors/assets/owl.theme.default.min.css">
 	<link rel="stylesheet" href="assets/vendors/assets/owl.carousel.css">
 	<!-- App -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="application-name" content="WOW Skin science" />
 	<meta name="apple-mobile-web-app-title" content="WOW Skin science">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<link rel="shortcut icon" href="<?php echo base_url()?>favicon.ico" type="image/x-icon">
 <link rel="icon" href="<?php echo base_url()?>favicon.ico" type="image/x-icon">
-	<title>Apple cider vineger Shampoo</title>
+	<title>Apple cider vinegar Shampoo</title>
 </head>
 
 <body>
@@ -64,22 +66,25 @@
 			<h1 class="headline">
         <span class="overflow-container">
           <span class="overflow-inner">
-            Breakthrough shampoo for healthy <span class="next-line"> scalp &amp; gorgeous hair</span>
+            Advanced Hair Care <br>	Formulae From
+					<br>wow skin science!
+
+
 
           </span>
         </span>
         <span class="overflow-container acv-intro-eyebrow">
           <span class="overflow-inner delay1">
-            <span class="eyebrow">Advanced Hair Care Formulae </span>
-						<span class="eyebrow"> From <span class="uppercase"> wow skin science!</span></span>
+            <span class="eyebrow"></span>
+						<!-- <span class="eyebrow"> From <span class="uppercase"> wow skin science!</span></span> -->
           </span>
         </span>
 
       </h1>
 
-			<video src="assets/video/acvshampoo.mp4" class="acv-video desktop" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/acv-poster.jpg"></video>
-    	<video src="assets/video/acvshampoo-mobile.mp4" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/acv-mobile-poster.jpg"></video>
-
+			<video src="assets/video/acvshampoo" class="acv-video desktop" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/acv-poster.jpg"></video>
+    	<video src="assets/video/acvshampoo-mobile" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/acv-mobile-poster.jpg"></video>
+<div class="acv-arrow-small hide"></div>
 		</div>
 
 		<div class="wow">
@@ -87,6 +92,7 @@
 			<div class="wow-section">
 				<div class="acv wow-acv-cond acvshampoo">
 					<div class="bg right down down-s">
+						<!-- <div class="arrow-text hide"></div> -->
 						<div class="acv-arrow hide"></div>
 						<div class="bottle right"></div>
 					</div>
