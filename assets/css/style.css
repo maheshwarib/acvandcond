@@ -358,7 +358,7 @@ a:visited {
   color: #424242;
   font-weight: 700;
   text-transform: uppercase;
-  font: normal normal 45px/1.1 Heavitas, Arial Black, Helvetica, sans-serif;
+  font: normal normal 75px/1.1 Heavitas, Arial Black, Helvetica, sans-serif;
   margin: 0;
   padding: 0
 }
@@ -418,7 +418,7 @@ a:visited {
 
 @media only screen and (max-width: 767px) {
   .eyebrow {
-    font-size: 17px
+    font-size: 22px
   }
 
   .wow-acv-cond.acvshampoo .bg:after,
@@ -429,7 +429,7 @@ a:visited {
 
 @media only screen and (max-width: 480px) {
   .eyebrow {
-    font-size: 14px
+    font-size: 22px
   }
 }
 
@@ -486,7 +486,17 @@ a:visited {
     font-size: 18px
   }
 }
+@media only screen and (min-width: 375px) and (max-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation : landscape)  {
+  .acvshampoo .title,
+	.cond .title {
+    font-size: 25px
+  }
 
+  .rose .title,
+	.rose .title2 {
+    font-size: 16px
+  }
+ }
 @media only screen and (max-width: 1023px) {
   .acvshampoo .title,
 	.cond .title {
@@ -509,7 +519,7 @@ a:visited {
 
   .rose .title,
 	.rose .title2 {
-    font-size: 18px
+    font-size: 25px
   }
 }
 
@@ -521,7 +531,7 @@ a:visited {
 
   .rose .title,
 	.rose .title2 {
-    font-size: 16px
+    font-size: 25px
   }
 }
 
@@ -1250,7 +1260,7 @@ span.ajax-loader {
   transition: all 0.3s ease;
 }
 
-.button.secondary:hover:before {
+.button.secondary:hover:before, .button.secondary:focus:before{
   width: 100%;
   color: #000;
 }
@@ -1346,7 +1356,11 @@ span.ajax-loader {
   transition: transform .5s cubic-bezier(.24, .72, .35, 1.01), background-color .5s;
   transition-delay: .8s
 }
-
+.header-logo.animate {
+  transform: rotateY(110deg);
+  background-color: #fff;
+  transition-delay: 0s
+}
 @media only screen and (max-width: 767px) {
   .header-logo.animate {
     transform: rotateY(110deg);
@@ -1625,8 +1639,8 @@ span.ajax-loader {
 .acv.main .headline {
   color: #fff;
   position: relative;
-  z-index: 4
-}
+  z-index: 4;
+  }
 
 .headline .next-line {
   display: block;
@@ -1646,13 +1660,18 @@ span.ajax-loader {
 
 @media only screen and (max-width: 767px) {
   .acv.main .headline {
-    font-size: 35px
+    font-size: 30px
   }
 }
 
 @media only screen and (max-width: 480px) {
+  .acv.main {
+    padding-left: 10%;
+    padding-right: 10%
+  }
+
   .acv.main .headline {
-    font-size: 18px
+    font-size: 34px
   }
 
   .headline .next-line {
@@ -1682,22 +1701,73 @@ span.ajax-loader {
 .acv-arrow {
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: 10px;
   transform: translateX(-50%);
-  height: 33px;
-  width: 126px;
+  height: 62px;
+  width: 15px;
   background: transparent url(../img/icons/acv-arrow.png) bottom/100% 100% no-repeat;
   cursor: pointer;
   transform-origin: center bottom;
   transition: transform .5s;
   transition-delay: 1s;
-  z-index: 3
+  -webkit-animation: 3s bounce infinite alternate;
+  animation: 3s bounce infinite alternate;
+  z-index: 4
 }
 
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+  40% {
+    -moz-transform: translateY(-80px);
+    transform: translateY(-80px);
+  }
+  60% {
+    -moz-transform: translateY(-60px);
+    transform: translateY(-60px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  40% {
+    -webkit-transform: translateY(-80px);
+    transform: translateY(-80px);
+  }
+  60% {
+    -webkit-transform: translateY(-60px);
+    transform: translateY(-60px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+  40% {
+    -moz-transform: translateY(-80px);
+    -ms-transform: translateY(-80px);
+    -webkit-transform: translateY(-80px);
+    transform: translateY(-80px);
+  }
+  60% {
+    -moz-transform: translateY(-60px);
+    -ms-transform: translateY(-60px);
+    -webkit-transform: translateY(-60px);
+    transform: translateY(-60px);
+
+  }
+}
 @media only screen and (max-width: 767px) {
   .acv-arrow {
-    height: 22px;
-    width: 85px
+    height: 62px;
+    width: 15px;
   }
 }
 
@@ -1710,14 +1780,14 @@ span.ajax-loader {
   position: absolute;
   left: 50%;
   bottom: 0;
-  width: 40px;
-  height: 40px;
+  width: 15px;
+  height: 62px;
   background: transparent url(../img/icons/acv-arrow-small.png) center 50%/10px auto no-repeat;
   opacity: 1;
   visibility: visible;
   transform: translate(-50%);
   z-index: 4;
-  transition: opacity .3s 1.5s, visibility .3s 1.5s;
+  transition: opacity .3s 1.5s, visibility .3s 1s;
   animation: b 3s infinite
 }
 
@@ -1744,7 +1814,8 @@ span.ajax-loader {
 .acv-arrow-small.main {
   bottom: 20%;
   border-radius: 50%;
-  border: 1px solid #fff
+  border: 1px solid #fff;
+  display: none;
 }
 
 .acv-arrow-small.main.dark {
@@ -2134,12 +2205,12 @@ span.ajax-loader {
 .wow .acv-arrow {
   transform: translateX(-50%) translateY(-100%);
   top: 0;
-  left: 0%
+  left: -1%;
 }
 
 @media only screen and (max-width: 767px) {
   .wow .acv-arrow {
-    left: -100%;
+    left: -106%;
   }
 }
 
@@ -2445,7 +2516,13 @@ span.ajax-loader {
     width: 0px;
   }
 }
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) {
 
+}
 @media only screen and (max-width: 480px) {
   .wow-acv-cond .bottle {
     top: -100px;
@@ -2656,7 +2733,20 @@ span.ajax-loader {
     font-size: 33px
   }
 }
+@media only screen and (min-width: 375px) and (max-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation : landscape)  {
+  .acvshampoo .title,
+	.cond .title {
+    font-size: 25px
+  }
 
+  .rose .title,
+	.rose .title2 {
+    font-size: 16px
+  }
+  .wow-ml-number {
+    font-size: 15px
+  }
+ }
 @media only screen and (max-width: 1023px) {
   .wow-ml-number {
     font-size: 33px;
