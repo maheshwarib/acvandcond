@@ -82,9 +82,9 @@
 
       </h1>
 
-			<video src="assets/video/acvshampoo" class="acv-video desktop" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/acv-poster.jpg"></video>
-    	<video src="assets/video/acvshampoo-mobile" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/sizzle-mobile-poster.jpg"></video>
-<div class="acv-arrow-small hide"></div>
+					<video src="assets/video/acvshampoo" class="acv-video desktop" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/acv-poster.jpg"></video>
+		    	<video src="assets/video/acvshampoo-mobile" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/sizzle-mobile-poster.jpg"></video>
+					<div class="acv-arrow-small hide"></div>
 		</div>
 
 		<div class="wow">
@@ -220,7 +220,7 @@
 								<a target="_blank" href="http://in.buywow.com/cart/29089416077:1?ref=mainhomepage" class="button secondary">SHOP NOW&nbsp;</a>
 							</div>
 						</div>
-						<div class="item">
+						<div class="item center">
 							<img class="owl-lazy combo2" data-src="assets/img/combo.png" alt="acv+conditioner" />
 							<div class="rating">
 								<span class="star-icon full">☆</span>
@@ -308,9 +308,9 @@
 								<h2 class="footer-title">REACH OUT TO US</h2>
 
 								<p class="text">We line up only the purest and superior-quality wellness and personal care products backed by science and studies. Our products contain natural bioactive ingredients without any artificial additives or harmful chemicals. From dietary health supplements, hair care & skin care products to bath & body products, we believe our customers deserve only the best.</p>
-<br>
-<p class="text"> <i class="fa fa-lg fa-location-arrow"></i> <a href="http://www.fitandglow.in/">Fit And Glow Healthcare Pvt Ltd</a> </p>
-<p class="text"> <i class="fa fa-envelope-o"></i> <a href="mailto:support@buywow.com">support@buywow.com</a>
+							<br>
+							<p class="text"> <i class="fa fa-lg fa-location-arrow"></i> <a href="http://www.fitandglow.in/">Fit And Glow Healthcare Pvt Ltd</a> </p>
+							<p class="text"> <i class="fa fa-envelope-o"></i> <a href="mailto:support@buywow.com">support@buywow.com</a>
 							</div>
 
 
@@ -322,21 +322,29 @@
 					</div>
 				</footer>
 			</div>
-		</div>
+			</div>
 	</div>
-
+<!-- end of wrapper class  -->
+<div class="landscape-popup"></div>
 	<script type="text/javascript" src="assets/js/script.js"></script>
 	<script type="text/javascript" src="assets/vendors/assets/owl.carousel.min.js">
 	</script>
 	<script type="text/javascript">
 		$(function () {
 		  $('.owl-carousel').owlCarousel({
-		   	loop:true,
+		   	loop:false,
+				center: false,
 	 			margin:0,
+				autoplay: true,
+
+		autoplayTimeout: 8500,
+		smartSpeed: 450,
 	 			responsiveClass:true,
 				responsive:{
 				    0:{
 				        items:1,
+								center: true,
+								loop:true,
 
 				        },
 				    768:{
