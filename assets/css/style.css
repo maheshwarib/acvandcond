@@ -1953,10 +1953,12 @@ span.ajax-loader {
 }
 
 .acv.video {
+  background-color: rgba(0,0,0,0.8);
   z-index: 3
 }
 
 .acv.video video {
+
   position: absolute;
   left: 50%;
   top: 50%;
@@ -2670,7 +2672,7 @@ width: 450px;
   }
 
   .wow-acv-cond .bottle.left {
-        left: -120px;
+        left: -100px;
   }
 }
 @media only screen and (max-width: 320px) {
@@ -3698,7 +3700,7 @@ margin: 5px 0;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  animation: bounceIn 1s 1;
+  animation: bounceIn 0.9s 1;
 }
 
 @-webkit-keyframes bounceIn {
@@ -3846,7 +3848,7 @@ margin: 5px 0;
     width: 80%;
     max-width: 85vw;
     margin: auto auto;
-    transform: translate(0%, 50%);
+    transform: translate(0%, 20%);
   }
 }
 
