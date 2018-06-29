@@ -3698,7 +3698,7 @@ margin: 5px 0;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  animation: bounceIn 0.9s 1;
+  animation: bounceIn 1s 1;
 }
 
 @-webkit-keyframes bounceIn {
@@ -3846,7 +3846,7 @@ margin: 5px 0;
     width: 80%;
     max-width: 85vw;
     margin: auto auto;
-    transform: translate(0%, 25%);
+    transform: translate(0%, 50%);
   }
 }
 
