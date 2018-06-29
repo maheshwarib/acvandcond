@@ -7366,7 +7366,6 @@ $(function () {
 		wow_sect2.find(".overflow-container").removeClass("animate"),
 		wow_sect3.find(".overflow-container").addClass("animate"),
 		wow_sect2.find(".content").removeClass("animate"),
-		wow_sect3.removeClass(""),
 		wow_sect3.find(".content").addClass("animate"), wow_sect3.css({
 			"z-index": "1"
 		}), wow.addClass("animate-up-easing")
@@ -7403,6 +7402,7 @@ $(function () {
 
 					wow_sect1.find(".bg").addClass("down down-s"),
 											 wow_sect1.find(".content").addClass("down down-s"),
+
 											  // $(".wow").removeClass("animate"),
 												$(".wow").removeClass("animate"),
 												$(".home-acv-main").removeClass("animate"),
@@ -7412,7 +7412,10 @@ $(function () {
 													$(".acv-arrow-small").addClass("hide"),
 												down_arrow.removeClass("animate"),
 												 $(".home-acv-main").find(h).addClass("animate"),
-												p.removeClass("animate"), wow_sect1.css({
+												p.removeClass("animate"), $(".acv-arrow-small").css({
+													"display":"none"
+												}),
+												wow_sect1.css({
 																				"z-index": "1"
 																			})),
 												 0 === n && (
@@ -7430,6 +7433,9 @@ $(function () {
 													wow_sect2.find(".overflow-container").removeClass("animate"),
 													wow_sect1.find(".content").addClass("animate"),
 													wow_sect2.find(".content").removeClass("animate"),
+													$(".acv-arrow-small").css({
+														"display":"block"
+													}),
 													wow_sect1.css({
 													"z-index": "1"
 												})),
