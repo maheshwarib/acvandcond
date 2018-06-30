@@ -7,10 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" class="css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-	<link rel="stylesheet" href="assets/vendors/assets/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/vendors/assets/owl.theme.default.min.css">
+<link rel="stylesheet" href="assets/vendors/assets/owl.theme.default.min.css">
 	<link rel="stylesheet" href="assets/vendors/assets/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 	<!-- App -->
 
 	<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -335,19 +334,23 @@
 		   	loop:false,
 				center: false,
 	 			margin:0,
-				autoplay: true,
-
-		autoplayTimeout: 8500,
-		smartSpeed: 450,
+				// autoplay: true,
+	nav: true,
+		// autoplayTimeout: 8500,
+		// smartSpeed: 450,
 	 			responsiveClass:true,
-				responsive:{
+						responsive:{
 				    0:{
+
+					 navText: ["<span class='icon icon-arrow-left7'></span>","<span class='icon icon-arrow-right7'></span>"],
+
 				        items:1,
 								center: true,
 								loop:true,
 
 				        },
 				    768:{
+							navigation : false,
 				        items:3,
 				    },
 				    1000:{
