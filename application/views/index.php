@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8" />
-	<meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" class="css">
@@ -304,7 +304,7 @@
 					<div class="footer-item right">
 						<div class="footer-section footer-follow">
 							<div class="footer-newsletter">
-								<h2 class="footer-title">REACH OUT TO US</h2>
+								<h2 class="footer-title">ABOUT US</h2>
 
 								<p class="text">We line up only the purest and superior-quality wellness and personal care products backed by science and studies. Our products contain natural bioactive ingredients without any artificial additives or harmful chemicals. From dietary health supplements, hair care & skin care products to bath & body products, we believe our customers deserve only the best.</p>
 							<br>
@@ -334,11 +334,13 @@
 		   	loop:false,
 				center: false,
 	 			margin:0,
-				// autoplay: true,
-	nav: true,
-		// autoplayTimeout: 8500,
-		// smartSpeed: 450,
-	 			responsiveClass:true,
+				touchDrag:false,
+				mouseDrag:false,
+				autoplay: true,
+				autoplayTimeout: 8500,
+				smartSpeed: 450,
+				nav: true,
+				responsiveClass:true,
 						responsive:{
 				    0:{
 
