@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 $config['base_url'] = 'http://localhost/acvandcond/';
 $config['index_page'] = '';
-$config['uri_protocol']	= 'REQUEST_URI';
+$config['uri_protocol']	= 'AUTO';
 $config['url_suffix'] = '';
 $config['language']	= 'english';
 $config['charset'] = 'UTF-8';
