@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
-
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -11,7 +10,6 @@
 	<link rel="stylesheet" href="assets/vendors/assets/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 	<!-- App -->
-
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="application-name" content="WOW Skin science" />
 	<meta name="apple-mobile-web-app-title" content="WOW Skin science">
@@ -81,8 +79,8 @@
 
       </h1>
 
-					<video src="assets/video/acvshampoo.mp4" class="acv-video desktop" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/acv-poster.jpg"></video>
-		    	<video src="assets/video/acvshampoo-mobile.mp4" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/sizzle-mobile-poster.jpg"></video>
+					<video src="assets/video/acvshampoo.mp4" class="acv-video desktop" autoplay loop muted preload playsinline data-autoplay data-keepplaying ></video>
+		    	<video  class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/sizzle-mobile-poster.jpg"></video>
 					<div class="acv-arrow-small hide"></div>
 		</div>
 
@@ -336,9 +334,9 @@
 	 			margin:0,
 				touchDrag:false,
 				mouseDrag:false,
-				autoplay: true,
-				autoplayTimeout: 8500,
-				smartSpeed: 450,
+				// autoplay: true,
+				// autoplayTimeout: 8500,
+				// smartSpeed: 450,
 				nav: true,
 				responsiveClass:true,
 						responsive:{
@@ -361,7 +359,8 @@
 
 				    }
 				}
-				})
+			});
+			 $('.owl-carousel').trigger('to.owl.carousel', 1);
 		})
 	</script>
 	<script type="text/javascript">
