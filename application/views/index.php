@@ -59,28 +59,17 @@
 	</header>
 	<div class="wrapper">
 		<div class="acv main video parallax overlay home-acv-main">
-
 			<h1 class="headline">
         <span class="overflow-container">
           <span class="overflow-inner">
             Advanced Hair Care <br>	Formulae From
 					<br>wow skin science!
-
-
-
           </span>
         </span>
-        <span class="overflow-container acv-intro-eyebrow">
-          <span class="overflow-inner delay1">
-            <span class="eyebrow"></span>
-						<!-- <span class="eyebrow"> From <span class="uppercase"> wow skin science!</span></span> -->
-          </span>
-        </span>
-
       </h1>
 
 					<video src="assets/video/acvshampoo.mp4" class="acv-video desktop" autoplay loop muted preload playsinline data-autoplay data-keepplaying ></video>
-		    	<video  class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/sizzle-mobile-poster.jpg"></video>
+		    	<video src="assets/video/acvshampoo-mobile.mp4" class="acv-video mobile" autoplay loop muted preload playsinline data-autoplay data-keepplaying poster="assets/img/sizzle-mobile-poster.jpg"></video>
 					<div class="acv-arrow-small hide"></div>
 		</div>
 
@@ -117,7 +106,7 @@
 							<div class="overflow-inner delay2">
 								<h3 class="title">blended with</h3>
 								<p class="subtitle">Sweet Almond Oil
-									<br>Argan Oil</p> <br><a target="_blank" href="https://in.buywow.com/products/wow-organics-apple-cider-vinegar-shampoo"  class="button secondary">READ MORE</a>
+									<br>Argan Oil</p> <br><a target="_blank" href="https://in.buywow.com/products/wow-organics-apple-cider-vinegar-shampoo"  class="button secondary">Buy Now</a>
 							</div>
 						</div>
 					</div>
@@ -154,7 +143,7 @@
 								<h3 class="title">blended with </h3>
 								<p class="subtitle">Cold Pressed
 									<br>Avocado Oil
-									<br>Vitamins B5 &amp; E</p> <br><a target="_blank" href="https://in.buywow.com/collections/hair-care/products/wow-skin-science-hair-conditioner-300ml-no-sulphates-no-parabens-infused-with-organic-virgin-coconut-oil-avocado-oil-wheat-protein?variant=32318143373"  class="button secondary">READ MORE</a>
+									<br>Vitamins B5 &amp; E</p> <br><a target="_blank" href="https://in.buywow.com/collections/hair-care/products/wow-skin-science-hair-conditioner-300ml-no-sulphates-no-parabens-infused-with-organic-virgin-coconut-oil-avocado-oil-wheat-protein?variant=32318143373"  class="button secondary">Buy Now</a>
 							</div>
 						</div>
 					</div>
@@ -184,7 +173,7 @@
 								<h3 class="title">Where does the conditioner come in?</h3>
 								<br>
 								<p class="subtitle">If you’re not too lazy to go the extra mile to preserve and cherish your hair, why don’t you try WOW Skin Science Hair Conditioner after the shampoo, and make this dynamic duo into a routine?</p>
-                <a target="_blank" href="https://in.buywow.com/products/wow-organics-apple-cider-vinegar-shampoo?variant=45023206797"  class="button secondary">Read More</a>
+                <a target="_blank" href="https://in.buywow.com/products/wow-organics-apple-cider-vinegar-shampoo?variant=45023206797"  class="button secondary">Buy Now</a>
 							</div>
 							<br>
 						</div>
@@ -205,6 +194,8 @@
 
 			<div class="section">
 				<div class="wow-acv-cond combos">
+					<div class="overflow-container part1"> <span class="combo-heading1"> Well, what are you waiting for?!</span>
+					<br> <span class="combo-heading2"> Go ahead and grab yours!</span>					</div>
 
 					<div class="owl-theme owl-carousel">
 						<div class="item">
@@ -214,7 +205,7 @@
 							<div class="overflow-container block">
 								<p>Apple Cider Vinegar<br>Shampoo</p>
 								<p class="price">Rs. 399.00</p>
-								<a target="_blank" href="http://in.buywow.com/cart/29089416077:1?ref=mainhomepage" class="button secondary">SHOP NOW&nbsp;</a>
+								<a target="_blank" href="http://in.buywow.com/cart/29089416077:1?ref=mainhomepage" class="button secondary">Buy NOw&nbsp;</a>
 							</div>
 						</div>
 						<div class="item center">
@@ -231,7 +222,7 @@
 									<br>+
 									<br>Hair Conditioner</p>
 							<p class="price">Rs. 794.00</p>
-							<a target="_blank" href="http://in.buywow.com/cart/45023206797:1?ref=mainhomepage"  class="button secondary">SHOP NOW&nbsp;</a>
+							<a target="_blank" href="http://in.buywow.com/cart/45023206797:1?ref=mainhomepage"  class="button secondary">Buy NOw&nbsp;</a>
 							</div>
 						</div>
 						<div class="item">
@@ -248,7 +239,7 @@
 									<br>
 								</p>
 								<p class="price">Rs. 395.00</p>
-									<a target="_blank" href="http://in.buywow.com/cart/32318143373:1?ref=mainhomepage"  class="button secondary">SHOP NOW&nbsp;</a>
+									<a target="_blank" href="http://in.buywow.com/cart/32318143373:1?ref=mainhomepage"  class="button secondary">Buy NOw&nbsp;</a>
 							</div>
 						</div>
 					</div>
@@ -327,6 +318,17 @@
 	<script type="text/javascript" src="assets/vendors/assets/owl.carousel.min.js">
 	</script>
 	<script type="text/javascript">
+// 	$(document).bind("contextmenu",function(e) {
+//      e.preventDefault();
+// });
+// $(document).keydown(function(event){
+// if(event.keyCode==123){
+// return false;
+// }
+// else if(event.ctrlKey && event.shiftKey && event.keyCode==73 || event.ctrlKey && event.keyCode==85 ){
+// return false;
+// }
+// });
 		$(function () {
 		  $('.owl-carousel').owlCarousel({
 		   	loop:false,
@@ -376,6 +378,7 @@
 			// 	theme: "dark"
 			// });
 		</script>
+
 </body>
 
 </html>
