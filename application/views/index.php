@@ -16,10 +16,23 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<link rel="shortcut icon" href="<?php echo base_url()?>favicon.ico" type="image/x-icon">
 <link rel="icon" href="<?php echo base_url()?>favicon.ico" type="image/x-icon">
-	<title>Apple cider vinegar Shampoo</title>
+<title> Apple cider vinegar Shampoo | ACV Shampoo | Best Shampoo </title>
+<meta name="description" content="WOW Skin Science Apple Cider Vinegar Shampoo is a BEST SELLING & MOST LOVED SHAMPOO For Healthy Scalp & Silky, Soft, Flake-Free hair."/>
+<meta name="keywords" content="WOW, WOW SKIN SCIENCE, Apple cider vinegar shampoo, best shampoo, ACV Shampoo, Apple cider vinegar, soft hair, silky hair, Best shampoo in the market, best shampoo in india, shampoo, Best ACV shampoo "/>
+<meta name="google-site-verification" content="google1d825573ca6475ec" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-56675640-11"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-56675640-11');
+</script>
 </head>
 
 <body>
+
 	<header class="header">
 		<div class="header-logo-wrapper">
 			<a href="#" rel="home" class="header-logo">
@@ -199,7 +212,7 @@
 
 					<div class="owl-theme owl-carousel">
 						<div class="item">
-							<img class="owl-lazy combo1" data-src="assets/img/combo1.png" alt="ACV" />
+							<img class="owl-lazy combo1" data-src="assets/img/combo1.png" alt="apple cider vinegar shampoo" />
 							<div class="rating"> <span class="star-icon full">☆</span><span class="star-icon full">☆</span>		<span class="star-icon full">☆</span>			<span class="star-icon full">☆</span>								<span class="star-icon">☆</span>
 							</div>
 							<div class="overflow-container block">
@@ -209,7 +222,7 @@
 							</div>
 						</div>
 						<div class="item center">
-							<img class="owl-lazy combo2" data-src="assets/img/combo.png" alt="acv+conditioner" />
+							<img class="owl-lazy combo2" data-src="assets/img/combo.png" alt="apple cider vinegar shampoo and wow conditioner" />
 							<div class="rating">
 								<span class="star-icon full">☆</span>
 								<span class="star-icon full">☆</span>
@@ -226,7 +239,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<img class="owl-lazy combo1" data-src="assets/img/combo3.png" alt="Conditioner" />
+							<img class="owl-lazy combo1" data-src="assets/img/combo3.png" alt="wow conditioner" />
 							<div class="rating"> <span class="star-icon full">☆</span>
 								<span class="star-icon full">☆</span>
 								<span class="star-icon full">☆</span>
@@ -253,19 +266,19 @@
 					</div>
 					<div class="demo-page-container">
 								<span class="youtube-link" youtubeid="bugowmlzt8U">
-									<img class="thumb_img desktop" src="assets/img/thumb1.jpg" alt="" width="100%">
-									<img class="thumb_img mobile" src="assets/img/thumb-mobile1.jpg" alt="" width="100%">
+									<img class="thumb_img desktop" src="assets/img/thumb1.jpg" alt="apple cider vinegar shampoo and wow conditioner" width="100%">
+									<img class="thumb_img mobile" src="assets/img/thumb-mobile1.jpg" alt="apple cider vinegar shampoo wow conditioner" width="100%">
 									<p>Customer Review</p>
 								</span>
 								<span class="youtube-link" youtubeid="8XDuVggWjcc">
-										<img class="thumb_img desktop" src="assets/img/thumb2.jpg" alt="" width="100%">
-										<img class="thumb_img mobile" src="assets/img/thumb-mobile2.jpg" alt="" width="100%">
+										<img class="thumb_img desktop" src="assets/img/thumb2.jpg" alt="apple cider vinegar shampoo wow conditioner" width="100%">
+										<img class="thumb_img mobile" src="assets/img/thumb-mobile2.jpg" alt="apple cider vinegar shampoo wow conditioner" width="100%">
 										<p>Customer Review</p>
 
 								</span>
 								<span class="youtube-link" youtubeid="wSgpjRUg_nk">
-									<img class="thumb_img desktop" src="assets/img/thumb3.jpg" alt="" width="100%">
-									<img class="thumb_img mobile" src="assets/img/thumb-mobile3.jpg" alt="" width="100%">
+									<img class="thumb_img desktop" src="assets/img/thumb3.jpg" alt="apple cider vinegar shampoo wow conditioner" width="100%">
+									<img class="thumb_img mobile" src="assets/img/thumb-mobile3.jpg" alt="apple cider vinegar shampoo wow conditioner" width="100%">
 									<p>Customer Review</p>
 
 								</span>
