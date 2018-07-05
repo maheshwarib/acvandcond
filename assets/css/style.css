@@ -3469,6 +3469,7 @@ span.ajax-loader {
   color: #fdffe4;
   text-decoration: none;
   margin-right: 4.5%
+
 }
 
 .demo-page-container img.mobile {
@@ -4143,18 +4144,16 @@ span.ajax-loader {
 }
 @media only screen and (max-device-width:825px) and (min-device-width: 414px) and (orientation:landscape) , @media only screen (max-device-height: 414px) and (orientation:landscape){
   .landscape-popup {
-    display: block
+    display: block;
   }
 }
 @media only screen and (max-device-width:826px) and (max-device-width: 416px) and (orientation:landscape){
   .acvshampoo .title, .cond .title {
     font-size: 24px
   }
-
   .rose .title, .rose .title2 {
     font-size: 16px
   }
-
   .wow-ml-number {
     font-size: 15px
   }
@@ -4173,7 +4172,6 @@ span.ajax-loader {
     z-index: 4;
     overflow: hidden
   }
-
   .rose>.content {
     padding: 20px 2vw
   }

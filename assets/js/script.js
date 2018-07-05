@@ -7262,28 +7262,32 @@ function() {
 			onLeave: function(c, u, d) {
 				$(this), $(this).height();
 				var h = u - 2;
-				$(".acv-arrow-small").addClass("hide"), console.log(c), $(".wow-section").css({
+				$(".acv-arrow-small").addClass("hide"),$(".wow-section").css({
 					"z-index": "0"
 				}), "down" === d && (0 === h && (i.find(".bg").removeClass("down down-s"), i.find(".content").removeClass("down down-s"), e.addClass("animate"), e.find(".overflow-container, #play-button").addClass("animate"), $(".acv-video").get(0).pause(), $(".acv-video").get(1).pause(), i.find(".headline").addClass("animate"), r.addClass("animate"), i.find(".bottle").addClass("animate"), i.find(".headline").addClass("animate"), i.find(".overflow-container").addClass("animate"), i.find(".content").addClass("animate"), $(".acv-arrow-small").css({
 					display: "block"
 				}),i.css({
 					"z-index": "1"
-				}), $(".home-acv-main").find(a).removeClass("animate"), l.addClass("animate")), 1 === h && (i.find(".bg").addClass("up"), i.find(".content").addClass("down"), n.find(".bg").removeClass("up"), n.find(".content").removeClass("down"), i.find(".content").addClass("up-s"), i.find(".bg").addClass("up-s"), n.find(".content").removeClass("down-s"), n.find(".bg").removeClass("down-s"), i.find(".bottle").removeClass("animate"), n.find(".bottle").addClass("animate"), i.find(".overflow-container").removeClass("animate"), n.find(".overflow-container").addClass("animate"), i.find(".content").removeClass("animate"), n.find(".content").addClass("animate"), $(".acv-arrow-small").css({
-					display: "block"
+				}), $(".home-acv-main").find(a).removeClass("animate"), l.addClass("animate")),
+				1 === h && (i.find(".bg").addClass("up"), i.find(".content").addClass("down"), n.find(".bg").removeClass("up"),
+				 n.find(".content").removeClass("down"), i.find(".content").addClass("up-s"), i.find(".bg").addClass("up-s"),
+				  n.find(".content").removeClass("down-s"), n.find(".bg").removeClass("down-s"), i.find(".bottle").removeClass("animate"), n.find(".bottle").addClass("animate"), i.find(".overflow-container").removeClass("animate"), n.find(".overflow-container").addClass("animate"), i.find(".content").removeClass("animate"), n.find(".content").addClass("animate"),
+				$(".acv-arrow-small").css({
+					"display": "block"
 				}), n.css({
 					"z-index": "1"
 				})), 2 === h && (n.find(".bg").addClass("down"), n.find(".content").addClass("up"), o.find(".bg").removeClass("down"), o.find(".content").removeClass("up"), n.find(".content").addClass("up-s"), n.find(".bg").addClass("up-s"), o.find(".content").removeClass("down-s"), o.find(".bg").removeClass("down-s"), n.find(".bottle").removeClass("animate"), o.find(".bottle").addClass("animate"), n.find(".overflow-container").removeClass("animate"), o.find(".overflow-container").addClass("animate"), n.find(".content").removeClass("animate"), o.find(".content").addClass("animate"), o.css({
 					"z-index": "1"
 				}), t.addClass("animate-up-easing")), 3 === h && ($("#wow").addClass("show"), $(".wow").addClass("animate-up"), o.find(".overflow-container").removeClass("animate"), o.find(".content").removeClass("animate"), o.find(".content").addClass("last-down"), o.find(".bg").addClass("last-down"), s.find(".item").addClass("animate-in"), s.find(a).addClass("animate")), 4 === h && (o.find(".overflow-container").removeClass("animate"), s.find(".item").addClass("animate-out"), s.find(a).removeClass("animate"))), "up" === d && (-1 === h && (i.find(".bg").addClass("down down-s"), i.find(".content").addClass("down down-s"), $(".wow").removeClass("animate"), $(".home-acv-main").removeClass("animate"), i.find(".bottle").removeClass("animate"), i.find(".content").removeClass("animate"), i.find(".overflow-container").removeClass("animate"), $(".acv-arrow-small").addClass("hide"), r.removeClass("animate"), $(".home-acv-main").find(a).addClass("animate"), l.removeClass("animate"), $(".acv-arrow-small").css({
-					display: "none"
+					"display": "none"
 				}), i.css({
 					"z-index": "1"
 				})), 0 === h && (i.find(".bg").removeClass("up"), i.find(".content").removeClass("down"), n.find(".bg").addClass("up"), n.find(".content").addClass("down"), i.find(".content").removeClass("up-s"), i.find(".bg").removeClass("up-s"), n.find(".content").addClass("down-s"), n.find(".bg").addClass("down-s"), i.find(".bottle").addClass("animate"), n.find(".bottle").removeClass("animate"), i.find(".overflow-container").addClass("animate"), n.find(".overflow-container").removeClass("animate"), i.find(".content").addClass("animate"), n.find(".content").removeClass("animate"), $(".acv-arrow-small").css({
-					display: "block"
+					"display": "block"
 				}), i.css({
 					"z-index": "1"
 				})), 1 === h && (n.find(".bg").removeClass("down"), n.find(".content").removeClass("up"), o.find(".bg").addClass("down"), o.find(".content").addClass("up"), n.find(".content").removeClass("up-s"), n.find(".bg").removeClass("up-s"), o.find(".content").addClass("down-s"), o.find(".bg").addClass("down-s"), n.find(".bottle").addClass("animate"), o.find(".bottle").removeClass("animate"), n.find(".overflow-container").addClass("animate"), o.find(".overflow-container").removeClass("animate"), n.find(".content").addClass("animate"), o.find(".content").removeClass("animate"), $(".acv-arrow-small").css({
-					display: "block"
+					"display": "block"
 				}),n.css({
 					"z-index": "1"
 				}), t.removeClass("animate-up-easing")), 2 === h && ($(".wow").removeClass("animate-up"), o.find(".bg").addClass("animate"), o.find(".overflow-container").addClass("animate"), o.find(".content").addClass("animate"), o.find(".content").removeClass("last-down"), s.find(a).removeClass("animate"), setTimeout(function() {
